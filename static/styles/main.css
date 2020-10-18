@@ -231,11 +231,12 @@ body a {
 
 /*--banner--*/
 
-.banner-image {
+.banner {
 	display: block;
   	-moz-box-sizing: border-box;
   	box-sizing: border-box;
-	height: 500px;  
+	height: 850px;
+	background-size: 100%;
 }
 
 .ban-head {
@@ -384,16 +385,53 @@ a {
 
 
 /*-- /responsive design --*/
+@media(max-width:2560) {
+	.banner {
+		height: 950px;
+	}
+}
+@media(max-width:1920px) {
+	.banner {
+		height: 600px;
+	}
+}
 
-@media(max-width:1440px) {}
+@media(max-width:1920px) {
+	.banner {
+		height: 550px;
+	}
+}
 
-@media(max-width:1366px) {}
 
-@media(max-width:1280px) {}
+@media(max-width:1440px) {
+	.banner {
+		height: 500px;
+	}
+}
 
-@media(max-width:1080px) {}
+@media(max-width:1366px) {
+	.banner {
+		height: 450px;
+	}
+}
 
-@media(max-width:1024px) {}
+@media(max-width:1280px) {
+	.banner {
+		height: 425px;
+	}
+}
+
+@media(max-width:1080px) {
+	.banner {
+		height: 350px;
+	}
+}
+
+@media(max-width:1024px) {
+	.banner {
+		height: 330px;
+	}
+}
 
 @media(max-width:991px) {}
 
@@ -406,7 +444,11 @@ a {
 	}
 }
 
-@media(max-width:768px) {}
+@media(max-width:768px) {
+	.banner {
+		height: 250px;
+	}
+}
 
 @media(max-width:736px) {
 	.ban-head {
@@ -424,52 +466,13 @@ a {
 }
 
 @media(max-width:640px) {
+	.banner {
+		height: 200px;
+	}
+
 	.ban-head h1 {
 		font-size: 3em;
 		letter-spacing: 7px;
-		overflow-x: hidden;
-	}
-}
-
-
-@media(max-width:480px) {
-	.ban-head h1 {
-		font-size: 2.8em;
-		letter-spacing: 2px;
-	}
-}
-
-@media(max-width:414px) {
-	.ban-head h1 {
-		font-size: 2.5em;
-		letter-spacing: 2px;
-	}
-	.ban-head h1 {
-		font-size: 2.2em;
-		letter-spacing: 2px;
-	}
-	.ban-head p {
-		font-size: 1.2em;
-	}
-	p {
-		font-size: 1.2em;
-	}
-}
-
-
-@media(max-width:384px) {
-	.body {
-		overflow-x: hidden;
-	}
-}
-
-@media(max-width:320px) {
-	.body {
-		overflow-x: hidden;
-	}
-	.ban-head h1 {
-		font-size: 2em;
-		letter-spacing: 2px;
 		overflow-x: hidden;
 	}
 }
@@ -524,5 +527,105 @@ a {
 	}
 }
 
+
+@media(max-width:540px) {
+	.banner {
+		height: 170px;
+	}
+
+	.ban-head h1 {
+		font-size: 3em;
+		letter-spacing: 7px;
+		overflow-x: hidden;
+	}
+}
+
+
+@media(max-width:480px) {
+	.banner {
+		height: 125px;
+	}
+	.ban-head h1 {
+		font-size: 2.8em;
+		letter-spacing: 2px;
+	}
+}
+@media(max-width:425px) {
+	.banner {
+		height: 125px;
+	}
+
+	.ban-head h1 {
+		font-size: 2.8em;
+		letter-spacing: 2px;
+	}
+}
+
+@media(max-width:414px) {
+	.banner {
+		height: 135px;
+	}
+	.ban-head h1 {
+		font-size: 2.5em;
+		letter-spacing: 2px;
+	}
+	.ban-head h1 {
+		font-size: 2.2em;
+		letter-spacing: 2px;
+	}
+	.ban-head p {
+		font-size: 1.2em;
+	}
+	p {
+		font-size: 1.2em;
+	}
+}
+
+
+@media(max-width:384px) {
+	.banner {
+		height: 125px;
+	}
+	.body {
+		overflow-x: hidden;
+	}
+}
+
+@media(max-width:375px) {
+	.banner {
+		height: 130px;
+	}
+	.body {
+		overflow-x: hidden;
+	}
+}
+
+@media(max-width:320px) {
+	.banner {
+		height: 120px;
+	}
+	.body {
+		overflow-x: hidden;
+	}
+	.ban-head h1 {
+		font-size: 2em;
+		letter-spacing: 2px;
+		overflow-x: hidden;
+	}
+}
+
+@media(max-width:280px) {
+	.banner {
+		height: 110px;
+	}
+	.body {
+		overflow-x: hidden;
+	}
+	.ban-head h1 {
+		font-size: 2em;
+		letter-spacing: 2px;
+		overflow-x: hidden;
+	}
+}
 
 /*-- /responsive design --*/

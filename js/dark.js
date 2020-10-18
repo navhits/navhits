@@ -1,4 +1,5 @@
-/*! DarkModeJS by nickdeny (v1.2): https://github.com/nickdeny/darkmode-js */
+// Original author: Nickdeny 
+// Link: https://github.com/nickdeny/darkmode-js
 
 ; (function (root, factory) {
     var pluginName = 'DarkMode'

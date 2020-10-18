@@ -16,7 +16,17 @@ body h6 {
 }
 
 .banner {
-	background-image: rgb(185, 185, 185) url(../images/banner-dark.svg) no-repeat;
+    background-image:url(../images/banner-dark.svg);
+    background-color:#000;
+    background-repeat:no-repeat;
+}
+
+#mode-toggler {
+    border: none;
+    color: #000;
+    background-color: #fff;
+    cursor: pointer;
+    border: 2px solid #fff;
 }
 
 .typewrite > .wrap { 
@@ -33,7 +43,11 @@ body h6 {
 	color: rgb(255, 255, 255);
 }
 
-.ban-head h3 {
+.ban-head .spaced-title {
+	color: rgb(255, 255, 255);
+}
+
+.ban-head span {
 	color: rgb(255, 255, 255);
 }
 
