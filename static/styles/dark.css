@@ -1,0 +1,110 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+
+body a {
+    color: #fff;
+}
+
+body p {
+	color: rgb(230, 230, 230);
+}
+
+body h6 {
+    color: #fff;
+}
+
+.banner-image {
+	background-image: rgb(185, 185, 185) url(../images/banner-dark.svg) no-repeat;
+}
+
+.typewrite > .wrap { 
+    border-right: 0.08em solid #fff;
+    color: #fff;
+    overflow:auto;
+}
+
+.ban-head h2 {
+	color: rgb(255, 255, 255);
+}
+
+.ban-head h1 {
+	color: rgb(255, 255, 255);
+}
+
+.ban-head h3 {
+	color: rgb(255, 255, 255);
+}
+
+.about-me h3 {	
+	color: rgb(255, 255, 255);
+}
+
+#workexperience h2 {
+	color: rgb(255, 255, 255);
+}
+
+.my-projects h3 {
+	color: rgb(255, 255, 255);
+}
+
+.grid-item {
+  background-color: rgba(66, 66, 66, 0.8);
+}
+
+.project-title {
+    color: rgb(255, 255, 255);
+}
+
+.main-section {
+	background: rgb(0, 0, 0);
+}
+
+.my-profile-pic {
+    border: 0.5px solid rgb(255, 255, 255);
+}
+
+.agileinfo-social-grids ul li a {
+	color: #000000;
+}
+
+.agileinfo-social-grids ul li a i.fa.fa-twitter,
+.agileinfo-social-grids ul li a i.fa.fa-instagram,
+.agileinfo-social-grids ul li a i.fa.fa-github,
+.agileinfo-social-grids ul li a i.fa.fa-medium {
+	color: rgb(255, 255, 255);
+	background: rgb(0, 0, 0);
+}
+
+.agileinfo-social-grids ul li a i.fa.fa-twitter:hover {
+    border: solid 2px #1da1f2;
+	background: #1da1f2;
+	color: #020202;
+}
+
+.agileinfo-social-grids ul li a i.fa.fa-instagram:hover {
+    border: solid 2px #f26b78;
+	background: #f26b78;
+	color: #000000;
+}
+
+.agileinfo-social-grids ul li a i.fa.fa-github:hover {
+	border: solid 2px #97a8b9;
+	background: #97a8b9;
+	color: #000000;
+}
+
+.agileinfo-social-grids ul li a i.fa.fa-medium:hover {
+	border: solid 2px rgb(255, 255, 255);
+	background: rgb(255, 255, 255);
+	color: #000000;
+}
+
+.footer {
+	background: rgba(219, 219, 219, 0.28);
+}
+
+.footer p {
+    color: #000;
+}
