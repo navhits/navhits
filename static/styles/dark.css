@@ -64,7 +64,7 @@ body h6 {
 }
 
 .grid-item {
-  background-color: rgba(66, 66, 66, 0.8);
+  background-color: rgba(49, 49, 49, 0.8);
 }
 
 .project-title {
@@ -116,9 +116,9 @@ body h6 {
 }
 
 .footer {
-	background: rgba(219, 219, 219, 0.28);
+	background: rgb(85, 85, 85)
 }
 
 .footer p {
-    color: #000;
+    color: rgb(255, 255, 255);
 }
