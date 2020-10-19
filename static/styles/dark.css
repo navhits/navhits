@@ -1,7 +1,7 @@
 body {
     /* background-color: rgb(0, 0, 0);*/
     background-color: #05070c;
-    background: linear-gradient(to top right, #05070c 0%, #13223d 100%);
+    background: linear-gradient(to top right, #05070c 0%, #2d323e 100%);
     color: #fff;
 }
 
@@ -25,16 +25,18 @@ body h6 {
 
 #mode-toggler {
     border: none;
-    color: #000;
+    color: #fff;
     outline: none;
-    box-shadow: 12px 12px 24px 0 rgba(255, 255, 255, 0.1),
-    -12px -12px 24px 0 rgba(255, 255, 255, 0.1);
+    background: linear-gradient(145deg, #232731, #373e4d);
+    background: #2d323e;
+    box-shadow:  11px 11px 22px #232730, 
+                -11px -11px 22px #373e4c;
     cursor: pointer;
 }
 
 #mode-toggler:active {
-    box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2),
-    inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
+    box-shadow: inset 11px 11px 22px #232730, 
+            inset -11px -11px 22px #373e4c;
 }
 
 .typewrite > .wrap { 
@@ -72,8 +74,15 @@ body h6 {
 }
 
 .grid-item {
-  box-shadow: 12px 12px 24px 0 rgba(49, 49, 49, 0.2),
-    -12px -12px 24px 0 rgba(65, 65, 65, 0.5);
+    background: linear-gradient(315deg, #14171e, #181b23);
+    box-shadow:  -7px -7px 14px #0d0f13, 
+                7px 7px 14px #1f232f;
+}
+
+.grid-item:hover {
+    background: linear-gradient(145deg, #181b23, #14171e);
+    box-shadow:  7px 7px 14px #0d0f13, 
+                -7px -7px 14px #1f232f;
 }
 
 .project-title {
@@ -86,6 +95,9 @@ body h6 {
 
 .my-profile-pic {
     border: 0.5px solid rgb(255, 255, 255);
+    background: linear-gradient(315deg, #303642, #292d38);
+    box-shadow:  -11px -11px 22px #232730, 
+             11px 11px 22px #373e4c;
 }
 
 .agileinfo-social-grids ul li a {

@@ -2,6 +2,7 @@ body {
     background-color: #fff;
     background: linear-gradient(to top right, #ffffff 0%, #bad3ff 100%);
     color: rgb(0, 0, 0);
+    transition-duration: 5s;
 }
 
 body a {
@@ -25,18 +26,17 @@ body h6 {
 
 #mode-toggler {
     border: none;
-    color: #fff;
-    background-color: rgb(48, 48, 48);
-    box-shadow: 12px 12px 24px 0 rgba(0, 0, 0, 0.2),
-    -12px -12px 24px 0 rgba(230, 230, 230, 04);
+    color: rgb(0, 0, 0);
+    background: linear-gradient(145deg, #a7bee6, #c7e2ff);
+    box-shadow:  11px 11px 22px #95a9cc, 
+                -11px -11px 22px #dffdff;
     cursor: pointer;
     outline: none;
-    border: 2px solid #000;
 }
 
 #mode-toggler:active {
-    box-shadow: inset 6px 6px 10px 0 rgba(168, 168, 168, 0.2),
-    inset -6px -6px 10px 0 rgba(167, 167, 167, 0.5);
+    box-shadow: inset 11px 11px 22px #95a9cc, 
+                 inset -11px -11px 22px #dffdff;
 }
 
 .typewrite > .wrap { 
@@ -74,8 +74,14 @@ body h6 {
 }
 
 .grid-item {
-  box-shadow: 12px 12px 24px 0 rgba(0, 0, 0, 0.2),
-    -12px -12px 24px 0 rgba(255, 255, 255, 0.5);
+    background: linear-gradient(315deg, #bfcde5, #e3f4ff);
+    box-shadow:  -6px -6px 12px #b8c6dd, 
+                6px 6px 12px #f0ffff;
+}
+.grid-item:hover {
+    background: linear-gradient(145deg, #e3f4ff, #bfcde5);
+    box-shadow:  6px 6px 12px #b8c6dd, 
+                -6px -6px 12px #f0ffff;
 }
 
 .project-title {
