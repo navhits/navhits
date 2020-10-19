@@ -38,3 +38,15 @@
     grid-template-columns: auto;
   }
 }
+
+@media(max-width:280px) {
+  .grid-item h5 {
+    font-size: 16px;
+  }
+  .grid-item h6 {
+    font-size: 12px;
+  }
+  .grid-item p {
+    font-size: 10px;
+  }
+}

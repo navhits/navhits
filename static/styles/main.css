@@ -241,7 +241,7 @@ body a {
 
 .ban-head {
 	overflow-x: hidden;
-	margin-top: -6em;
+	
 }
 
 .ban-head h2 {
@@ -386,58 +386,514 @@ a {
 
 /*-- /responsive design --*/
 @media(max-width:2560) {
-	.banner {
-		height: 950px;
+	.ban-head {
+		padding-bottom: 20px;
+		overflow-x: hidden;
+		margin-top: -12em;
 	}
-}
-@media(max-width:1920px) {
-	.banner {
-		height: 600px;
+
+	.my-profile-pic {
+		margin-bottom: 15px;
+		max-width: 30%;
+		overflow-x: hidden;
+	}
+
+	.ban-head h1 {
+		font-size: 3em;
+		letter-spacing: 7px;
+		overflow-x: hidden;
+	}
+	.footer p {
+		font-size: 40px;
+	}
+
+	.my-projects h3 {
+		font-size: 50px;
+	}
+
+	#workexperience h2 {
+		font-size: 50px;
+	}
+
+	.about-me h3 {
+		font-size: 50px;
+	}
+
+	.about-me p {
+		font-size: 40px;
+	}
+
+	.ban-head h2 {
+		font-size: 50px;
+	}
+
+	.ban-head h3 {
+		font-size: 45px;
+	}
+
+	.ban-head p {
+		font-size: 40px;
 	}
 }
 
+
 @media(max-width:1920px) {
-	.banner {
-		height: 550px;
+	.ban-head {
+		padding-bottom: 20px;
+		overflow-x: hidden;
+		margin-top: -19em;
+	}
+
+	.my-profile-pic {
+		margin-bottom: 15px;
+		max-width: 30%;
+		overflow-x: hidden;
+	}
+
+	.ban-head h1 {
+		font-size: 3em;
+		letter-spacing: 7px;
+		overflow-x: hidden;
+	}
+	.footer p {
+		font-size: 20px;
+	}
+
+	.my-projects h3 {
+		font-size: 30px;
+	}
+
+	#workexperience h2 {
+		font-size: 30px;
+	}
+
+	.about-me h3 {
+		font-size: 30px;
+	}
+
+	.about-me p {
+		font-size: 20px;
+	}
+
+	.ban-head h2 {
+		font-size: 30px;
+	}
+
+	.ban-head h3 {
+		font-size: 25px;
+	}
+
+	.ban-head p {
+		font-size: 20px;
+	}
+}
+
+@media(max-width:1680px) {
+	.ban-head {
+		padding-bottom: 20px;
+		overflow-x: hidden;
+		margin-top: -24em;
+	}
+
+	.my-profile-pic {
+		margin-bottom: 15px;
+		max-width: 20%;
+		overflow-x: hidden;
+	}
+
+	.ban-head h1 {
+		font-size: 3em;
+		letter-spacing: 7px;
+		overflow-x: hidden;
+	}
+	.footer p {
+		font-size: 20px;
+	}
+
+	.my-projects h3 {
+		font-size: 30px;
+	}
+
+	#workexperience h2 {
+		font-size: 30px;
+	}
+
+	.about-me h3 {
+		font-size: 30px;
+	}
+
+	.about-me p {
+		font-size: 20px;
+	}
+
+	.ban-head h2 {
+		font-size: 30px;
+	}
+
+	.ban-head h3 {
+		font-size: 25px;
+	}
+
+	.ban-head p {
+		font-size: 20px;
 	}
 }
 
 
 @media(max-width:1440px) {
-	.banner {
-		height: 500px;
+	.ban-head {
+		padding-bottom: 20px;
+		overflow-x: hidden;
+		margin-top: -11em;
+	}
+
+	.my-profile-pic {
+		margin-bottom: 15px;
+		max-width: 20%;
+		overflow-x: hidden;
+	}
+
+	.ban-head h1 {
+		font-size: 3em;
+		letter-spacing: 7px;
+		overflow-x: hidden;
+	}
+	.footer p {
+		font-size: 20px;
+	}
+
+	.my-projects h3 {
+		font-size: 30px;
+	}
+
+	#workexperience h2 {
+		font-size: 30px;
+	}
+
+	.about-me h3 {
+		font-size: 30px;
+	}
+
+	.about-me p {
+		font-size: 20px;
+	}
+
+	.ban-head h2 {
+		font-size: 30px;
+	}
+
+	.ban-head h3 {
+		font-size: 25px;
+	}
+
+	.ban-head p {
+		font-size: 20px;
 	}
 }
 
 @media(max-width:1366px) {
-	.banner {
-		height: 450px;
+	.ban-head {
+		padding-bottom: 20px;
+		overflow-x: hidden;
+		margin-top: -9em;
+	}
+
+	.my-profile-pic {
+		margin-bottom: 15px;
+		max-width: 20%;
+		overflow-x: hidden;
+	}
+
+	.ban-head h1 {
+		font-size: 3em;
+		letter-spacing: 7px;
+		overflow-x: hidden;
+	}
+	.footer p {
+		font-size: 18px;
+	}
+
+	.my-projects h3 {
+		font-size: 28px;
+	}
+
+	#workexperience h2 {
+		font-size: 28px;
+	}
+
+	.about-me h3 {
+		font-size: 28px;
+	}
+
+	.about-me p {
+		font-size: 18px;
+	}
+
+	.ban-head h2 {
+		font-size: 28px;
+	}
+
+	.ban-head h3 {
+		font-size: 23px;
+	}
+
+	.ban-head p {
+		font-size: 18px;
 	}
 }
 
 @media(max-width:1280px) {
-	.banner {
-		height: 425px;
+	.ban-head {
+		padding-bottom: 20px;
+		overflow-x: hidden;
+		margin-top: -8em;
+	}
+
+	.my-profile-pic {
+		margin-bottom: 15px;
+		max-width: 20%;
+		overflow-x: hidden;
+	}
+
+	.ban-head h1 {
+		font-size: 3em;
+		letter-spacing: 7px;
+		overflow-x: hidden;
+	}
+	.footer p {
+		font-size: 18px;
+	}
+
+	.my-projects h3 {
+		font-size: 28px;
+	}
+
+	#workexperience h2 {
+		font-size: 28px;
+	}
+
+	.about-me h3 {
+		font-size: 28px;
+	}
+
+	.about-me p {
+		font-size: 18px;
+	}
+
+	.ban-head h2 {
+		font-size: 28px;
+	}
+
+	.ban-head h3 {
+		font-size: 23px;
+	}
+
+	.ban-head p {
+		font-size: 18px;
 	}
 }
 
 @media(max-width:1080px) {
-	.banner {
-		height: 350px;
+	.ban-head {
+		padding-bottom: 20px;
+		overflow-x: hidden;
+		margin-top: -10.2em;
+	}
+
+	.my-profile-pic {
+		margin-bottom: 15px;
+		max-width: 20%;
+		overflow-x: hidden;
+	}
+
+	.ban-head h1 {
+		font-size: 3em;
+		letter-spacing: 7px;
+		overflow-x: hidden;
+	}
+	.footer p {
+		font-size: 18px;
+	}
+
+	.my-projects h3 {
+		font-size: 28px;
+	}
+
+	#workexperience h2 {
+		font-size: 28px;
+	}
+
+	.about-me h3 {
+		font-size: 28px;
+	}
+
+	.about-me p {
+		font-size: 18px;
+	}
+
+	.ban-head h2 {
+		font-size: 28px;
+	}
+
+	.ban-head h3 {
+		font-size: 23px;
+	}
+
+	.ban-head p {
+		font-size: 18px;
 	}
 }
 
 @media(max-width:1024px) {
-	.banner {
-		height: 330px;
+	.ban-head {
+		padding-bottom: 20px;
+		overflow-x: hidden;
+		margin-top: -6.5em;
+	}
+
+	.my-profile-pic {
+		margin-bottom: 15px;
+		max-width: 20%;
+		overflow-x: hidden;
+	}
+
+	.ban-head h1 {
+		font-size: 3em;
+		letter-spacing: 7px;
+		overflow-x: hidden;
+	}
+	.footer p {
+		font-size: 18px;
+	}
+
+	.my-projects h3 {
+		font-size: 28px;
+	}
+
+	#workexperience h2 {
+		font-size: 28px;
+	}
+
+	.about-me h3 {
+		font-size: 28px;
+	}
+
+	.about-me p {
+		font-size: 18px;
+	}
+
+	.ban-head h2 {
+		font-size: 28px;
+	}
+
+	.ban-head h3 {
+		font-size: 23px;
+	}
+
+	.ban-head p {
+		font-size: 18px;
 	}
 }
 
-@media(max-width:991px) {}
+@media(max-width:991px) {
+	.ban-head {
+		padding-bottom: 20px;
+		overflow-x: hidden;
+		margin-top: -5.5em;
+	}
+
+	.my-profile-pic {
+		margin-bottom: 15px;
+		max-width: 25%;
+		overflow-x: hidden;
+	}
+
+	.ban-head h1 {
+		font-size: 3em;
+		letter-spacing: 7px;
+		overflow-x: hidden;
+	}
+	.footer p {
+		font-size: 18px;
+	}
+
+	.my-projects h3 {
+		font-size: 28px;
+	}
+
+	#workexperience h2 {
+		font-size: 28px;
+	}
+
+	.about-me h3 {
+		font-size: 28px;
+	}
+
+	.about-me p {
+		font-size: 18px;
+	}
+
+	.ban-head h2 {
+		font-size: 28px;
+	}
+
+	.ban-head h3 {
+		font-size: 23px;
+	}
+
+	.ban-head p {
+		font-size: 18px;
+	}
+}
 
 @media(max-width:800px) {
+	.ban-head {
+		padding-bottom: 20px;
+		overflow-x: hidden;
+		margin-top: -8.5em;
+	}
+
+	.my-profile-pic {
+		margin-bottom: 15px;
+		max-width: 20%;
+		overflow-x: hidden;
+	}
+
 	.ban-head h1 {
-		font-size: 3.5em;
+		font-size: 3em;
+		letter-spacing: 7px;
+		overflow-x: hidden;
+	}
+	.footer p {
+		font-size: 18px;
+	}
+
+	.my-projects h3 {
+		font-size: 28px;
+	}
+
+	#workexperience h2 {
+		font-size: 28px;
+	}
+
+	.about-me h3 {
+		font-size: 28px;
+	}
+
+	.about-me p {
+		font-size: 18px;
+	}
+
+	.ban-head h2 {
+		font-size: 28px;
+	}
+
+	.ban-head h3 {
+		font-size: 23px;
+	}
+
+	.ban-head p {
+		font-size: 18px;
 	}
 	.examples {
 		width: 80%;
@@ -445,15 +901,104 @@ a {
 }
 
 @media(max-width:768px) {
-	.banner {
-		height: 250px;
+	.ban-head {
+		padding-bottom: 20px;
+		overflow-x: hidden;
+		margin-top: -9.5em;
+	}
+
+	.my-profile-pic {
+		margin-bottom: 15px;
+		max-width: 20%;
+		overflow-x: hidden;
+	}
+
+	.ban-head h1 {
+		font-size: 3em;
+		letter-spacing: 7px;
+		overflow-x: hidden;
+	}
+	.footer p {
+		font-size: 18px;
+	}
+
+	.my-projects h3 {
+		font-size: 28px;
+	}
+
+	#workexperience h2 {
+		font-size: 28px;
+	}
+
+	.about-me h3 {
+		font-size: 28px;
+	}
+
+	.about-me p {
+		font-size: 18px;
+	}
+
+	.ban-head h2 {
+		font-size: 28px;
+	}
+
+	.ban-head h3 {
+		font-size: 23px;
+	}
+
+	.ban-head p {
+		font-size: 18px;
 	}
 }
 
 @media(max-width:736px) {
 	.ban-head {
-		margin: 3em 0 0 0;
+		padding-bottom: 20px;
 		overflow-x: hidden;
+		margin-top: -4.5em;
+	}
+
+	.my-profile-pic {
+		margin-bottom: 15px;
+		max-width: 18%;
+		overflow-x: hidden;
+	}
+
+	.ban-head h1 {
+		font-size: 3em;
+		letter-spacing: 7px;
+		overflow-x: hidden;
+	}
+	.footer p {
+		font-size: 18px;
+	}
+
+	.my-projects h3 {
+		font-size: 28px;
+	}
+
+	#workexperience h2 {
+		font-size: 28px;
+	}
+
+	.about-me h3 {
+		font-size: 28px;
+	}
+
+	.about-me p {
+		font-size: 18px;
+	}
+
+	.ban-head h2 {
+		font-size: 28px;
+	}
+
+	.ban-head h3 {
+		font-size: 23px;
+	}
+
+	.ban-head p {
+		font-size: 18px;
 	}
 }
 
@@ -463,17 +1008,105 @@ a {
 		letter-spacing: 7px;
 		overflow-x: hidden;
 	}
-}
+	.ban-head {
+		padding-bottom: 20px;
+		overflow-x: hidden;
+		margin-top: -6.5em;
+	}
 
-@media(max-width:640px) {
-	.banner {
-		height: 200px;
+	.my-profile-pic {
+		margin-bottom: 15px;
+		max-width: 25%;
+		overflow-x: hidden;
 	}
 
 	.ban-head h1 {
 		font-size: 3em;
 		letter-spacing: 7px;
 		overflow-x: hidden;
+	}
+	.footer p {
+		font-size: 18px;
+	}
+
+	.my-projects h3 {
+		font-size: 28px;
+	}
+
+	#workexperience h2 {
+		font-size: 28px;
+	}
+
+	.about-me h3 {
+		font-size: 28px;
+	}
+
+	.about-me p {
+		font-size: 18px;
+	}
+
+	.ban-head h2 {
+		font-size: 28px;
+	}
+
+	.ban-head h3 {
+		font-size: 23px;
+	}
+
+	.ban-head p {
+		font-size: 18px;
+	}
+}
+
+@media(max-width:640px) {
+
+	.ban-head {
+		padding-bottom: 20px;
+		overflow-x: hidden;
+		margin-top: -6em;
+	}
+
+	.my-profile-pic {
+		margin-bottom: 15px;
+		max-width: 20%;
+		overflow-x: hidden;
+	}
+
+	.ban-head h1 {
+		font-size: 3em;
+		letter-spacing: 7px;
+		overflow-x: hidden;
+	}
+	.footer p {
+		font-size: 18px;
+	}
+
+	.my-projects h3 {
+		font-size: 28px;
+	}
+
+	#workexperience h2 {
+		font-size: 28px;
+	}
+
+	.about-me h3 {
+		font-size: 28px;
+	}
+
+	.about-me p {
+		font-size: 18px;
+	}
+
+	.ban-head h2 {
+		font-size: 28px;
+	}
+
+	.ban-head h3 {
+		font-size: 23px;
+	}
+
+	.ban-head p {
+		font-size: 18px;
 	}
 }
 
@@ -487,83 +1120,191 @@ a {
 	.ban-head {
 		padding-bottom: 20px;
 		overflow-x: hidden;
-		margin-top: -3em;
+		margin-top: -7em;
 	}
-	.ban-head h2 {
-		font-size: 1.5em;
-		color: #000;
-		letter-spacing: 1px;
-		overflow-x: hidden;
-	}
-	.ban-head h1 {
-		font-size: 2em;
-		color: #000;
-		letter-spacing: 10px;
-		font-family: 'Google Sans', sans-serif;
-		overflow-x: hidden;
-	}
-	.ban-head h3 {
-		font-size: 0.74em;
-		color: #000;
-		letter-spacing: 1px;
-		font-family: 'Google Sans', sans-serif;
-		overflow-x: hidden;
-	}
+
 	.my-profile-pic {
 		margin-bottom: 15px;
-		max-width: 25%;
-		overflow-x: hidden;
-	}
-	.ban-head p {
-		font-size: 0.8em;
-		overflow-x: hidden;
-	}
-	p {
-		font-size: 0.8em;
+		max-width: 20%;
 		overflow-x: hidden;
 	}
 	.agileinfo-social-grids {
 		margin-top: 0;
 	}
+
+	.footer p {
+		font-size: 18px;
+	}
+
+	.my-projects h3 {
+		font-size: 28px;
+	}
+
+	#workexperience h2 {
+		font-size: 28px;
+	}
+
+	.about-me h3 {
+		font-size: 28px;
+	}
+
+	.about-me p {
+		font-size: 18px;
+	}
+
+	.ban-head h2 {
+		font-size: 28px;
+	}
+
+	.ban-head h3 {
+		font-size: 23px;
+	}
+
+	.ban-head p {
+		font-size: 18px;
+	}
 }
 
 
 @media(max-width:540px) {
-	.banner {
-		height: 170px;
+	.ban-head {
+		padding-bottom: 20px;
+		overflow-x: hidden;
+		margin-top: -7.5em;
 	}
-
 	.ban-head h1 {
 		font-size: 3em;
 		letter-spacing: 7px;
 		overflow-x: hidden;
 	}
+
+	.footer p {
+		font-size: 18px;
+	}
+
+	.my-projects h3 {
+		font-size: 28px;
+	}
+
+	#workexperience h2 {
+		font-size: 28px;
+	}
+
+	.about-me h3 {
+		font-size: 28px;
+	}
+
+	.about-me p {
+		font-size: 18px;
+	}
+
+	.ban-head h2 {
+		font-size: 28px;
+	}
+
+	.ban-head h3 {
+		font-size: 23px;
+	}
+
+	.ban-head p {
+		font-size: 18px;
+	}
 }
 
 
 @media(max-width:480px) {
-	.banner {
-		height: 125px;
+	.ban-head {
+		padding-bottom: 20px;
+		overflow-x: hidden;
+		margin-top: -8em;
 	}
 	.ban-head h1 {
 		font-size: 2.8em;
 		letter-spacing: 2px;
+	}
+	.footer p {
+		font-size: 18px;
+	}
+
+	.my-projects h3 {
+		font-size: 28px;
+	}
+
+	#workexperience h2 {
+		font-size: 28px;
+	}
+
+	.about-me h3 {
+		font-size: 28px;
+	}
+
+	.about-me p {
+		font-size: 18px;
+	}
+
+	.ban-head h2 {
+		font-size: 28px;
+	}
+
+	.ban-head h3 {
+		font-size: 23px;
+	}
+
+	.ban-head p {
+		font-size: 18px;
 	}
 }
 @media(max-width:425px) {
-	.banner {
-		height: 125px;
+	.ban-head {
+		padding-bottom: 20px;
+		overflow-x: hidden;
+		margin-top: -9em;
 	}
 
 	.ban-head h1 {
 		font-size: 2.8em;
 		letter-spacing: 2px;
 	}
+
+	.footer p {
+		font-size: 15px;
+	}
+
+	.my-projects h3 {
+		font-size: 25px;
+	}
+
+	#workexperience h2 {
+		font-size: 25px;
+	}
+
+	.about-me h3 {
+		font-size: 25px;
+	}
+
+	.about-me p {
+		font-size: 15px;
+	}
+
+	.ban-head h2 {
+		font-size: 25px;
+	}
+
+	.ban-head h3 {
+		font-size: 20px;
+	}
+
+	.ban-head p {
+		font-size: 15px;
+	}
+
 }
 
 @media(max-width:414px) {
-	.banner {
-		height: 135px;
+	.ban-head {
+		padding-bottom: 20px;
+		overflow-x: hidden;
+		margin-top: -9em;
 	}
 	.ban-head h1 {
 		font-size: 2.5em;
@@ -573,36 +1314,132 @@ a {
 		font-size: 2.2em;
 		letter-spacing: 2px;
 	}
-	.ban-head p {
-		font-size: 1.2em;
+	.footer p {
+		font-size: 15px;
 	}
-	p {
-		font-size: 1.2em;
+
+	.my-projects h3 {
+		font-size: 25px;
+	}
+
+	#workexperience h2 {
+		font-size: 25px;
+	}
+
+	.about-me h3 {
+		font-size: 25px;
+	}
+
+	.about-me p {
+		font-size: 15px;
+	}
+
+	.ban-head h2 {
+		font-size: 25px;
+	}
+
+	.ban-head h3 {
+		font-size: 20px;
+	}
+
+	.ban-head p {
+		font-size: 15px;
 	}
 }
 
 
 @media(max-width:384px) {
-	.banner {
-		height: 125px;
+	.ban-head {
+		padding-bottom: 20px;
+		overflow-x: hidden;
+		margin-top: -9.7em;
 	}
 	.body {
 		overflow-x: hidden;
 	}
+
+	.footer p {
+		font-size: 15px;
+	}
+
+	.my-projects h3 {
+		font-size: 25px;
+	}
+
+	#workexperience h2 {
+		font-size: 25px;
+	}
+
+	.about-me h3 {
+		font-size: 25px;
+	}
+
+	.about-me p {
+		font-size: 15px;
+	}
+
+	.ban-head h2 {
+		font-size: 25px;
+	}
+
+	.ban-head h3 {
+		font-size: 20px;
+	}
+
+	.ban-head p {
+		font-size: 15px;
+	}
+
 }
 
 @media(max-width:375px) {
-	.banner {
-		height: 130px;
+	.ban-head {
+		padding-bottom: 20px;
+		overflow-x: hidden;
+		margin-top: -10em;
 	}
 	.body {
 		overflow-x: hidden;
+	}
+
+	.footer p {
+		font-size: 15px;
+	}
+
+	.my-projects h3 {
+		font-size: 25px;
+	}
+
+	#workexperience h2 {
+		font-size: 25px;
+	}
+
+	.about-me h3 {
+		font-size: 25px;
+	}
+
+	.about-me p {
+		font-size: 15px;
+	}
+
+	.ban-head h2 {
+		font-size: 25px;
+	}
+
+	.ban-head h3 {
+		font-size: 20px;
+	}
+
+	.ban-head p {
+		font-size: 15px;
 	}
 }
 
 @media(max-width:320px) {
-	.banner {
-		height: 120px;
+	.ban-head {
+		padding-bottom: 20px;
+		overflow-x: hidden;
+		margin-top: -10.5em;
 	}
 	.body {
 		overflow-x: hidden;
@@ -612,11 +1449,46 @@ a {
 		letter-spacing: 2px;
 		overflow-x: hidden;
 	}
+
+	.footer p {
+		font-size: 15px;
+	}
+
+	.my-projects h3 {
+		font-size: 25px;
+	}
+
+	#workexperience h2 {
+		font-size: 25px;
+	}
+
+	.about-me h3 {
+		font-size: 25px;
+	}
+
+	.about-me p {
+		font-size: 15px;
+	}
+
+	.ban-head h2 {
+		font-size: 25px;
+	}
+
+	.ban-head h3 {
+		font-size: 20px;
+	}
+
+	.ban-head p {
+		font-size: 15px;
+	}
+
 }
 
 @media(max-width:280px) {
-	.banner {
-		height: 110px;
+	.ban-head {
+		padding-bottom: 20px;
+		overflow-x: hidden;
+		margin-top: -11.5em;
 	}
 	.body {
 		overflow-x: hidden;
@@ -626,6 +1498,39 @@ a {
 		letter-spacing: 2px;
 		overflow-x: hidden;
 	}
+
+	.footer p {
+		font-size: 15px;
+	}
+
+	.my-projects h3 {
+		font-size: 25px;
+	}
+
+	#workexperience h2 {
+		font-size: 25px;
+	}
+
+	.about-me h3 {
+		font-size: 25px;
+	}
+
+	.about-me p {
+		font-size: 15px;
+	}
+
+	.ban-head h2 {
+		font-size: 25px;
+	}
+
+	.ban-head h3 {
+		font-size: 20px;
+	}
+
+	.ban-head p {
+		font-size: 15px;
+	}
+
 }
 
 /*-- /responsive design --*/
