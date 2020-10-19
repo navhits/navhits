@@ -18,7 +18,6 @@ body h6 {
 
 .banner {
     background-image:url(../images/banner-dark.svg);
-    background-color:rgba(0, 0, 0, 0);
     background-repeat:no-repeat;
 }
 
@@ -27,7 +26,6 @@ body h6 {
     color: #fff;
     outline: none;
     background: linear-gradient(145deg, #232731, #373e4d);
-    background: #2d323e;
     box-shadow:  11px 11px 22px #232730, 
                 -11px -11px 22px #373e4c;
     cursor: pointer;
@@ -88,15 +86,10 @@ body h6 {
     color: rgb(255, 255, 255);
 }
 
-.main-section {
-	background: rgba(0, 0, 0, 0);;
-}
-
 .my-profile-pic {
-    border: 0.5px solid rgb(255, 255, 255);
-    background: linear-gradient(315deg, #303642, #292d38);
-    box-shadow:  -11px -11px 22px #232730, 
-             11px 11px 22px #373e4c;
+    background: #151a21;
+    box-shadow:  7px 7px 14px #080a0d, 
+                -7px -7px 14px #222a35;
 }
 
 .agileinfo-social-grids ul li a {
@@ -108,35 +101,26 @@ body h6 {
 .agileinfo-social-grids ul li a i.fa.fa-github,
 .agileinfo-social-grids ul li a i.fa.fa-medium {
 	color: rgb(255, 255, 255);
-	background: rgba(0, 0, 0, 0);
 }
 
 .agileinfo-social-grids ul li a i.fa.fa-twitter:hover {
-    border: solid 2px #1da1f2;
 	background: #1da1f2;
 	color: #020202;
 }
 
 .agileinfo-social-grids ul li a i.fa.fa-instagram:hover {
-    border: solid 2px #f26b78;
 	background: #f26b78;
 	color: #000000;
 }
 
 .agileinfo-social-grids ul li a i.fa.fa-github:hover {
-	border: solid 2px #97a8b9;
 	background: #97a8b9;
 	color: #000000;
 }
 
 .agileinfo-social-grids ul li a i.fa.fa-medium:hover {
-	border: solid 2px rgb(255, 255, 255);
 	background: rgb(255, 255, 255);
 	color: #000000;
-}
-
-.footer {
-	background: rgba(0, 0, 0, 0)
 }
 
 .footer p {
