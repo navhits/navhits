@@ -2,7 +2,6 @@ body {
     background-color: #fff;
     background: linear-gradient(to top right, #ffffff 0%, #bad3ff 100%);
     color: rgb(0, 0, 0);
-    transition-duration: 5s;
 }
 
 body a {
