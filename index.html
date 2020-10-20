@@ -16,11 +16,11 @@
     <link rel="preconnect" href="//stackpath.bootstrapcdn.com" crossorigin="">
     <link rel="preconnect" href="//maxcdn.bootstrapcdn.com" crossorigin="">
     <link rel="preconnect" href="//fonts.googleapis.com" crossorigin="">
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script async src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link href="static/styles/main.css" rel='stylesheet' type='text/css' />
+    <link href="themes/neodyn/css/master/neodyn.css" rel='stylesheet' type='text/css' />
     <link href="static/styles/grid.css" rel='stylesheet' type='text/css' />
     <link href="//fonts.googleapis.com/css?family=Google+Sans:400,500|Material+Icons" rel="stylesheet">
 </head>
@@ -31,7 +31,7 @@
         <button style="z-index:9; position: absolute; right:10px; top: 10px" id="mode-toggler" class="btn">Lights off 🌝</button>
         <div class="container">
             <div class="ban-head">
-                <img class="my-profile-pic" src="static/images/navs.jpeg" width="200px" alt="Profile picture of Naveen">
+                <img class="my-profile-pic" src="static/images/naveen.jpeg" width="200px" alt="Profile picture of Naveen">
                 
                 <h2>
                     <div class="typewrite" data-period="2000"
@@ -142,14 +142,14 @@
             <script>document.write(new Date().getFullYear())</script>. Hand baked 🍪 with ❤️ by Naveen S
         </p>
     </section>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <script src="js/type.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/dark.js"></script>
-    <script>
+    <script async src="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script async src="static/js/type.js"></script>
+    <script defer src="js/main.js"></script>
+    <script src="themes/neodyn/js/neodyn.js"></script>
+    <script defer>
          var options = {
-                light: "static/styles/light.css",
-                dark: "static/styles/dark.css"
+                light: "themes/neodyn/css/variants/neodyn-light.css",
+                dark: "themes/neodyn/css/variants/neodyn-dark.css"
             };
             var DarkMode = new DarkMode(options);
             var ModeToggler = document.getElementById('mode-toggler')
