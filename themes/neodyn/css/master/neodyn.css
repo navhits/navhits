@@ -1,0 +1,1629 @@
+/*--reset--*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+dl,
+dt,
+dd,
+ol,
+nav ul,
+nav li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+ol,
+ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.txt-rt {
+	text-align: right;
+}
+
+.txt-lt {
+	text-align: left;
+}
+
+.txt-center {
+	text-align: center;
+}
+
+.float-rt {
+	float: right;
+}
+
+
+/* float right */
+
+.float-lt {
+	float: left;
+}
+
+
+/* float left */
+
+.clear {
+	clear: both;
+}
+
+
+/* clear float */
+
+.pos-relative {
+	position: relative;
+}
+
+
+/* Position Relative */
+
+.pos-absolute {
+	position: absolute;
+}
+
+
+/* Position Absolute */
+
+.vertical-base {
+	vertical-align: baseline;
+}
+
+
+/* vertical align baseline */
+
+.vertical-top {
+	vertical-align: top;
+}
+
+
+/* vertical align top */
+
+nav.vertical ul li {
+	display: block;
+}
+
+
+/* vertical menu */
+
+nav.horizontal ul li {
+	display: inline-block;
+}
+
+
+/* horizontal menu */
+
+img {
+	max-width: 100%;
+}
+
+
+/*--end reset--*/
+
+body {
+	font-family: 'Google Sans', sans-serif;
+	font-size: 100%;
+	background-attachment: fixed;
+	text-align: center;
+	overflow-x: hidden;
+}
+
+body a {
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+
+/*--banner--*/
+
+.banner {
+	display: block;
+  	-moz-box-sizing: border-box;
+  	box-sizing: border-box;
+	height: 850px;
+	background-size: 100%;
+}
+
+.ban-head {
+	overflow-x: hidden;
+	margin-top: -6em;
+}
+
+.ban-head h2 {
+	font-size: 2.5em;
+	letter-spacing: 1px;
+}
+
+.ban-head h1 {
+	font-size: 4em;
+	letter-spacing: 10px;
+	font-family: 'Google Sans', sans-serif;
+}
+
+.ban-head h3 {
+	font-size: 1.27em;
+	letter-spacing: 1px;
+	font-family: 'Google Sans', sans-serif;
+}
+
+.about-me {
+    padding-bottom: 20px;
+    overflow-x: hidden;
+    margin-top: 20px;
+}
+
+.about-me h3 {
+	font-size: 2em;
+	letter-spacing: 1px;
+	font-family: 'Google Sans', sans-serif;
+}
+
+#workexperience h2 {
+    font-size: 2em;
+	letter-spacing: 1px;
+	font-family: 'Google Sans', sans-serif;
+}
+
+.my-projects h3 {
+	font-size: 2em;
+	letter-spacing: 1px;
+	font-family: 'Google Sans', sans-serif;
+}
+
+.spaced-title {
+    padding: 30px;
+}
+
+.main-section {
+	min-height: 200px;
+	display: grid;
+}
+
+.my-profile-pic {
+	margin-bottom: 25px;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+
+/*--//banner--*/
+
+
+/*-- social-icons --*/
+
+.agileinfo-social-grids {
+	z-index: 999;
+	text-align: center;
+	margin-top: 0;
+	padding-bottom: 30px;
+}
+
+.agileinfo-social-grids ul {
+	padding: 0;
+	margin: 0;
+}
+
+.agileinfo-social-grids ul li {
+	display: inline-block;
+	margin: .5em 0;
+}
+
+.agileinfo-social-grids ul li a {
+	text-align: center;
+}
+
+.agileinfo-social-grids ul li a i.fa.fa-twitter,
+.agileinfo-social-grids ul li a i.fa.fa-instagram,
+.agileinfo-social-grids ul li a i.fa.fa-github,
+.agileinfo-social-grids ul li a i.fa.fa-medium,
+.agileinfo-social-grids ul li a i.fa.fa-youtube-play {
+	width: 30px;
+	height: 30px;
+	margin: 6px;
+	font-size: 20px;
+	line-height: 27px;
+	text-decoration: none;
+	text-shadow: none;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	transition: 0.3s;
+	border: 2px solid transparent;
+}
+
+
+/*-- //social-icons --*/
+
+
+/*-- footer --*/
+
+.footer {
+	padding: 1em 1em 1em 1em;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.column {
+	float: left;
+	text-align: left;
+	width: 25%;
+	padding: 30px 30px 30px 30px;
+}
+
+.row {
+	margin-left: 10px;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+a {
+	color: #000;
+}
+
+
+/*-- //footer --*/
+
+
+/*-- /responsive design --*/
+
+@media(max-width:1920px) {
+	.ban-head {
+		padding-bottom: 20px;
+		overflow-x: hidden;
+		margin-top: -19em;
+	}
+	.banner {
+		height: 840px;
+	}
+	.my-profile-pic {
+		margin-bottom: 15px;
+		max-width: 30%;
+		overflow-x: hidden;
+	}
+
+	.ban-head h1 {
+		font-size: 3em;
+		letter-spacing: 7px;
+		overflow-x: hidden;
+	}
+	.footer p {
+		font-size: 20px;
+	}
+
+	.my-projects h3 {
+		font-size: 30px;
+	}
+
+	#workexperience h2 {
+		font-size: 30px;
+	}
+
+	.about-me h3 {
+		font-size: 30px;
+	}
+
+	.about-me p {
+		font-size: 20px;
+	}
+
+	.ban-head h2 {
+		font-size: 30px;
+	}
+
+	.ban-head h3 {
+		font-size: 25px;
+	}
+
+	.ban-head p {
+		font-size: 20px;
+	}
+}
+
+@media(max-width:1680px) {
+	.ban-head {
+		padding-bottom: 20px;
+		overflow-x: hidden;
+		margin-top: -25em;
+	}
+	.banner {
+		height: 860px;
+	}
+
+	.my-profile-pic {
+		margin-bottom: 15px;
+		max-width: 20%;
+		overflow-x: hidden;
+	}
+
+	.ban-head h1 {
+		font-size: 3em;
+		letter-spacing: 7px;
+		overflow-x: hidden;
+	}
+	.footer p {
+		font-size: 20px;
+	}
+
+	.my-projects h3 {
+		font-size: 30px;
+	}
+
+	#workexperience h2 {
+		font-size: 30px;
+	}
+
+	.about-me h3 {
+		font-size: 30px;
+	}
+
+	.about-me p {
+		font-size: 20px;
+	}
+
+	.ban-head h2 {
+		font-size: 30px;
+	}
+
+	.ban-head h3 {
+		font-size: 25px;
+	}
+
+	.ban-head p {
+		font-size: 20px;
+	}
+}
+
+
+@media(max-width:1440px) {
+	.ban-head {
+		padding-bottom: 20px;
+		overflow-x: hidden;
+		margin-top: -11em;
+	}
+	.banner {
+		height: 550px;
+	}
+
+	.my-profile-pic {
+		margin-bottom: 15px;
+		max-width: 20%;
+		overflow-x: hidden;
+	}
+
+	.ban-head h1 {
+		font-size: 3em;
+		letter-spacing: 7px;
+		overflow-x: hidden;
+	}
+	.footer p {
+		font-size: 20px;
+	}
+
+	.my-projects h3 {
+		font-size: 30px;
+	}
+
+	#workexperience h2 {
+		font-size: 30px;
+	}
+
+	.about-me h3 {
+		font-size: 30px;
+	}
+
+	.about-me p {
+		font-size: 20px;
+	}
+
+	.ban-head h2 {
+		font-size: 30px;
+	}
+
+	.ban-head h3 {
+		font-size: 25px;
+	}
+
+	.ban-head p {
+		font-size: 20px;
+	}
+}
+
+@media(max-width:1366px) {
+	.ban-head {
+		padding-bottom: 20px;
+		overflow-x: hidden;
+		margin-top: -9em;
+	}
+	.banner {
+		height: 500px;
+	}
+	.my-profile-pic {
+		margin-bottom: 15px;
+		max-width: 20%;
+		overflow-x: hidden;
+	}
+
+	.ban-head h1 {
+		font-size: 3em;
+		letter-spacing: 7px;
+		overflow-x: hidden;
+	}
+	.footer p {
+		font-size: 18px;
+	}
+
+	.my-projects h3 {
+		font-size: 28px;
+	}
+
+	#workexperience h2 {
+		font-size: 28px;
+	}
+
+	.about-me h3 {
+		font-size: 28px;
+	}
+
+	.about-me p {
+		font-size: 18px;
+	}
+
+	.ban-head h2 {
+		font-size: 28px;
+	}
+
+	.ban-head h3 {
+		font-size: 23px;
+	}
+
+	.ban-head p {
+		font-size: 18px;
+	}
+}
+
+@media(max-width:1280px) {
+	.ban-head {
+		padding-bottom: 20px;
+		overflow-x: hidden;
+		margin-top: -8em;
+	}
+	.banner {
+		height: 450px;
+	}
+	.my-profile-pic {
+		margin-bottom: 15px;
+		max-width: 20%;
+		overflow-x: hidden;
+	}
+
+	.ban-head h1 {
+		font-size: 3em;
+		letter-spacing: 7px;
+		overflow-x: hidden;
+	}
+	.footer p {
+		font-size: 18px;
+	}
+
+	.my-projects h3 {
+		font-size: 28px;
+	}
+
+	#workexperience h2 {
+		font-size: 28px;
+	}
+
+	.about-me h3 {
+		font-size: 28px;
+	}
+
+	.about-me p {
+		font-size: 18px;
+	}
+
+	.ban-head h2 {
+		font-size: 28px;
+	}
+
+	.ban-head h3 {
+		font-size: 23px;
+	}
+
+	.ban-head p {
+		font-size: 18px;
+	}
+}
+
+@media(max-width:1080px) {
+	.ban-head {
+		padding-bottom: 20px;
+		overflow-x: hidden;
+		margin-top: -10.2em;
+	}
+	.banner {
+		height: 425px;
+	}
+
+	.my-profile-pic {
+		margin-bottom: 15px;
+		max-width: 20%;
+		overflow-x: hidden;
+	}
+
+	.ban-head h1 {
+		font-size: 3em;
+		letter-spacing: 7px;
+		overflow-x: hidden;
+	}
+	.footer p {
+		font-size: 18px;
+	}
+
+	.my-projects h3 {
+		font-size: 28px;
+	}
+
+	#workexperience h2 {
+		font-size: 28px;
+	}
+
+	.about-me h3 {
+		font-size: 28px;
+	}
+
+	.about-me p {
+		font-size: 18px;
+	}
+
+	.ban-head h2 {
+		font-size: 28px;
+	}
+
+	.ban-head h3 {
+		font-size: 23px;
+	}
+
+	.ban-head p {
+		font-size: 18px;
+	}
+}
+
+@media(max-width:1024px) {
+	.ban-head {
+		padding-bottom: 20px;
+		overflow-x: hidden;
+		margin-top: -6.5em;
+	}
+	.banner {
+		height: 350px;
+	}
+	.my-profile-pic {
+		margin-bottom: 15px;
+		max-width: 20%;
+		overflow-x: hidden;
+	}
+
+	.ban-head h1 {
+		font-size: 3em;
+		letter-spacing: 7px;
+		overflow-x: hidden;
+	}
+	.footer p {
+		font-size: 18px;
+	}
+
+	.my-projects h3 {
+		font-size: 28px;
+	}
+
+	#workexperience h2 {
+		font-size: 28px;
+	}
+
+	.about-me h3 {
+		font-size: 28px;
+	}
+
+	.about-me p {
+		font-size: 18px;
+	}
+
+	.ban-head h2 {
+		font-size: 28px;
+	}
+
+	.ban-head h3 {
+		font-size: 23px;
+	}
+
+	.ban-head p {
+		font-size: 18px;
+	}
+}
+
+@media(max-width:991px) {
+	.ban-head {
+		padding-bottom: 20px;
+		overflow-x: hidden;
+		margin-top: -5.5em;
+	}
+	.banner {
+		height: 330px;
+	}
+	.my-profile-pic {
+		margin-bottom: 15px;
+		max-width: 25%;
+		overflow-x: hidden;
+	}
+
+	.ban-head h1 {
+		font-size: 3em;
+		letter-spacing: 7px;
+		overflow-x: hidden;
+	}
+	.footer p {
+		font-size: 18px;
+	}
+
+	.my-projects h3 {
+		font-size: 28px;
+	}
+
+	#workexperience h2 {
+		font-size: 28px;
+	}
+
+	.about-me h3 {
+		font-size: 28px;
+	}
+
+	.about-me p {
+		font-size: 18px;
+	}
+
+	.ban-head h2 {
+		font-size: 28px;
+	}
+
+	.ban-head h3 {
+		font-size: 23px;
+	}
+
+	.ban-head p {
+		font-size: 18px;
+	}
+}
+
+@media(max-width:800px) {
+	.ban-head {
+		padding-bottom: 20px;
+		overflow-x: hidden;
+		margin-top: -8.5em;
+	}
+	.banner {
+		height: 330px;
+	}
+	.my-profile-pic {
+		margin-bottom: 15px;
+		max-width: 20%;
+		overflow-x: hidden;
+	}
+
+	.ban-head h1 {
+		font-size: 3em;
+		letter-spacing: 7px;
+		overflow-x: hidden;
+	}
+	.footer p {
+		font-size: 18px;
+	}
+
+	.my-projects h3 {
+		font-size: 28px;
+	}
+
+	#workexperience h2 {
+		font-size: 28px;
+	}
+
+	.about-me h3 {
+		font-size: 28px;
+	}
+
+	.about-me p {
+		font-size: 18px;
+	}
+
+	.ban-head h2 {
+		font-size: 28px;
+	}
+
+	.ban-head h3 {
+		font-size: 23px;
+	}
+
+	.ban-head p {
+		font-size: 18px;
+	}
+	.examples {
+		width: 80%;
+	}
+}
+
+@media(max-width:768px) {
+	.ban-head {
+		padding-bottom: 20px;
+		overflow-x: hidden;
+		margin-top: -9.5em;
+	}
+	.banner {
+		height: 330px;
+	}
+
+	.my-profile-pic {
+		margin-bottom: 15px;
+		max-width: 20%;
+		overflow-x: hidden;
+	}
+
+	.ban-head h1 {
+		font-size: 3em;
+		letter-spacing: 7px;
+		overflow-x: hidden;
+	}
+	.footer p {
+		font-size: 18px;
+	}
+
+	.my-projects h3 {
+		font-size: 28px;
+	}
+
+	#workexperience h2 {
+		font-size: 28px;
+	}
+
+	.about-me h3 {
+		font-size: 28px;
+	}
+
+	.about-me p {
+		font-size: 18px;
+	}
+
+	.ban-head h2 {
+		font-size: 28px;
+	}
+
+	.ban-head h3 {
+		font-size: 23px;
+	}
+
+	.ban-head p {
+		font-size: 18px;
+	}
+}
+
+@media(max-width:736px) {
+	.ban-head {
+		padding-bottom: 20px;
+		overflow-x: hidden;
+		margin-top: -4.5em;
+	}
+	.banner {
+		height: 250px;
+	}
+
+	.my-profile-pic {
+		margin-bottom: 15px;
+		max-width: 18%;
+		overflow-x: hidden;
+	}
+
+	.ban-head h1 {
+		font-size: 3em;
+		letter-spacing: 7px;
+		overflow-x: hidden;
+	}
+	.footer p {
+		font-size: 18px;
+	}
+
+	.my-projects h3 {
+		font-size: 28px;
+	}
+
+	#workexperience h2 {
+		font-size: 28px;
+	}
+
+	.about-me h3 {
+		font-size: 28px;
+	}
+
+	.about-me p {
+		font-size: 18px;
+	}
+
+	.ban-head h2 {
+		font-size: 28px;
+	}
+
+	.ban-head h3 {
+		font-size: 23px;
+	}
+
+	.ban-head p {
+		font-size: 18px;
+	}
+}
+
+@media(max-width:667px) {
+	.ban-head h1 {
+		font-size: 3.5em;
+		letter-spacing: 7px;
+		overflow-x: hidden;
+	}
+	.ban-head {
+		padding-bottom: 20px;
+		overflow-x: hidden;
+		margin-top: -6.5em;
+	}
+	.banner {
+		height: 250px;
+	}
+	.my-profile-pic {
+		margin-bottom: 15px;
+		max-width: 25%;
+		overflow-x: hidden;
+	}
+
+	.ban-head h1 {
+		font-size: 3em;
+		letter-spacing: 7px;
+		overflow-x: hidden;
+	}
+	.footer p {
+		font-size: 18px;
+	}
+
+	.my-projects h3 {
+		font-size: 28px;
+	}
+
+	#workexperience h2 {
+		font-size: 28px;
+	}
+
+	.about-me h3 {
+		font-size: 28px;
+	}
+
+	.about-me p {
+		font-size: 18px;
+	}
+
+	.ban-head h2 {
+		font-size: 28px;
+	}
+
+	.ban-head h3 {
+		font-size: 23px;
+	}
+
+	.ban-head p {
+		font-size: 18px;
+	}
+}
+
+@media(max-width:640px) {
+
+	.ban-head {
+		padding-bottom: 20px;
+		overflow-x: hidden;
+		margin-top: -6em;
+	}
+	.banner {
+		height: 250px;
+	}
+	.my-profile-pic {
+		margin-bottom: 15px;
+		max-width: 20%;
+		overflow-x: hidden;
+	}
+
+	.ban-head h1 {
+		font-size: 3em;
+		letter-spacing: 7px;
+		overflow-x: hidden;
+	}
+	.footer p {
+		font-size: 18px;
+	}
+
+	.my-projects h3 {
+		font-size: 28px;
+	}
+
+	#workexperience h2 {
+		font-size: 28px;
+	}
+
+	.about-me h3 {
+		font-size: 28px;
+	}
+
+	.about-me p {
+		font-size: 18px;
+	}
+
+	.ban-head h2 {
+		font-size: 28px;
+	}
+
+	.ban-head h3 {
+		font-size: 23px;
+	}
+
+	.ban-head p {
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.column {
+		width: 100%;
+	}
+	.body {
+		overflow-x: hidden;
+	}
+	.ban-head {
+		padding-bottom: 20px;
+		overflow-x: hidden;
+		margin-top: -7em;
+	}
+	.banner {
+		height: 255px;
+	}
+	.my-profile-pic {
+		margin-bottom: 15px;
+		max-width: 20%;
+		overflow-x: hidden;
+	}
+	.agileinfo-social-grids {
+		margin-top: 0;
+	}
+
+	.footer p {
+		font-size: 18px;
+	}
+
+	.my-projects h3 {
+		font-size: 28px;
+	}
+
+	#workexperience h2 {
+		font-size: 28px;
+	}
+
+	.about-me h3 {
+		font-size: 28px;
+	}
+
+	.about-me p {
+		font-size: 18px;
+	}
+
+	.ban-head h2 {
+		font-size: 28px;
+	}
+
+	.ban-head h3 {
+		font-size: 23px;
+	}
+
+	.ban-head p {
+		font-size: 18px;
+	}
+}
+
+
+@media(max-width:540px) {
+	.ban-head {
+		padding-bottom: 20px;
+		overflow-x: hidden;
+		margin-top: -7.5em;
+	}
+	.banner {
+		height: 250px;
+	}
+	.ban-head h1 {
+		font-size: 3em;
+		letter-spacing: 7px;
+		overflow-x: hidden;
+	}
+
+	.footer p {
+		font-size: 18px;
+	}
+
+	.my-projects h3 {
+		font-size: 28px;
+	}
+
+	#workexperience h2 {
+		font-size: 28px;
+	}
+
+	.about-me h3 {
+		font-size: 28px;
+	}
+
+	.about-me p {
+		font-size: 18px;
+	}
+
+	.ban-head h2 {
+		font-size: 28px;
+	}
+
+	.ban-head h3 {
+		font-size: 23px;
+	}
+
+	.ban-head p {
+		font-size: 18px;
+	}
+	#mode-toggler {
+		width: 25%;
+		font-size: 12px;
+	}
+}
+
+
+@media(max-width:480px) {
+	.ban-head {
+		padding-bottom: 20px;
+		overflow-x: hidden;
+		margin-top: -8em;
+	}
+	.banner {
+		height: 240px;
+	}
+	.ban-head h1 {
+		font-size: 2.8em;
+		letter-spacing: 2px;
+	}
+	.footer p {
+		font-size: 18px;
+	}
+
+	.my-projects h3 {
+		font-size: 28px;
+	}
+
+	#workexperience h2 {
+		font-size: 28px;
+	}
+
+	.about-me h3 {
+		font-size: 28px;
+	}
+
+	.about-me p {
+		font-size: 18px;
+	}
+
+	.ban-head h2 {
+		font-size: 28px;
+	}
+
+	.ban-head h3 {
+		font-size: 23px;
+	}
+
+	.ban-head p {
+		font-size: 18px;
+	}
+	#mode-toggler {
+		width: 25%;
+		font-size: 10px;
+	}
+}
+@media(max-width:425px) {
+	.ban-head {
+		padding-bottom: 20px;
+		overflow-x: hidden;
+		margin-top: -9em;
+	}
+	.banner {
+		height: 245px;
+	}
+	.ban-head h1 {
+		font-size: 2.8em;
+		letter-spacing: 2px;
+	}
+
+	.footer p {
+		font-size: 15px;
+	}
+
+	.my-projects h3 {
+		font-size: 25px;
+	}
+
+	#workexperience h2 {
+		font-size: 25px;
+	}
+
+	.about-me h3 {
+		font-size: 25px;
+	}
+
+	.about-me p {
+		font-size: 15px;
+	}
+
+	.ban-head h2 {
+		font-size: 25px;
+	}
+
+	.ban-head h3 {
+		font-size: 20px;
+	}
+
+	.ban-head p {
+		font-size: 15px;
+	}
+	#mode-toggler {
+		width: 25%;
+		font-size: 10px;
+	}
+}
+
+@media(max-width:414px) {
+	.ban-head {
+		padding-bottom: 20px;
+		overflow-x: hidden;
+		margin-top: -9em;
+	}
+	.banner {
+		height: 240px;
+	}
+	.ban-head h1 {
+		font-size: 2.5em;
+		letter-spacing: 2px;
+	}
+	.ban-head h1 {
+		font-size: 2.2em;
+		letter-spacing: 2px;
+	}
+	.footer p {
+		font-size: 15px;
+	}
+
+	.my-projects h3 {
+		font-size: 25px;
+	}
+
+	#workexperience h2 {
+		font-size: 25px;
+	}
+
+	.about-me h3 {
+		font-size: 25px;
+	}
+
+	.about-me p {
+		font-size: 15px;
+	}
+
+	.ban-head h2 {
+		font-size: 25px;
+	}
+
+	.ban-head h3 {
+		font-size: 20px;
+	}
+
+	.ban-head p {
+		font-size: 15px;
+	}
+	#mode-toggler {
+		width: 25%;
+		font-size: 10px;
+	}
+}
+
+
+@media(max-width:384px) {
+	.ban-head {
+		padding-bottom: 20px;
+		overflow-x: hidden;
+		margin-top: -9.7em;
+	}
+	.banner {
+		height: 250px;
+	}
+	.body {
+		overflow-x: hidden;
+	}
+
+	.footer p {
+		font-size: 15px;
+	}
+
+	.my-projects h3 {
+		font-size: 25px;
+	}
+
+	#workexperience h2 {
+		font-size: 25px;
+	}
+
+	.about-me h3 {
+		font-size: 25px;
+	}
+
+	.about-me p {
+		font-size: 15px;
+	}
+
+	.ban-head h2 {
+		font-size: 25px;
+	}
+
+	.ban-head h3 {
+		font-size: 20px;
+	}
+
+	.ban-head p {
+		font-size: 15px;
+	}
+	#mode-toggler {
+		width: 25%;
+		font-size: 10px;
+	}
+
+}
+
+@media(max-width:375px) {
+	.ban-head {
+		padding-bottom: 20px;
+		overflow-x: hidden;
+		margin-top: -10em;
+	}
+	.banner {
+		height: 250px;
+	}
+	
+	.body {
+		overflow-x: hidden;
+	}
+
+	.footer p {
+		font-size: 15px;
+	}
+
+	.my-projects h3 {
+		font-size: 25px;
+	}
+
+	#workexperience h2 {
+		font-size: 25px;
+	}
+
+	.about-me h3 {
+		font-size: 25px;
+	}
+
+	.about-me p {
+		font-size: 15px;
+	}
+
+	.ban-head h2 {
+		font-size: 25px;
+	}
+
+	.ban-head h3 {
+		font-size: 20px;
+	}
+
+	.ban-head p {
+		font-size: 15px;
+	}
+	#mode-toggler {
+		width: 25%;
+		font-size: 10px;
+	}
+}
+
+@media(max-width:320px) {
+	.ban-head {
+		padding-bottom: 20px;
+		overflow-x: hidden;
+		margin-top: -10.5em;
+	}
+	.banner {
+		height: 250px;
+	}
+	.body {
+		overflow-x: hidden;
+	}
+	.ban-head h1 {
+		font-size: 2em;
+		letter-spacing: 2px;
+		overflow-x: hidden;
+	}
+
+	.footer p {
+		font-size: 15px;
+	}
+
+	.my-projects h3 {
+		font-size: 25px;
+	}
+
+	#workexperience h2 {
+		font-size: 25px;
+	}
+
+	.about-me h3 {
+		font-size: 25px;
+	}
+
+	.about-me p {
+		font-size: 15px;
+	}
+
+	.ban-head h2 {
+		font-size: 25px;
+	}
+
+	.ban-head h3 {
+		font-size: 20px;
+	}
+
+	.ban-head p {
+		font-size: 15px;
+	}
+	#mode-toggler {
+		width: 25%;
+		font-size: 10px;
+	}
+
+}
+
+@media(max-width:280px) {
+	.ban-head {
+		padding-bottom: 20px;
+		overflow-x: hidden;
+		margin-top: -11.5em;
+	}
+	.banner {
+		height: 250px;
+	}
+	.body {
+		overflow-x: hidden;
+	}
+	.ban-head h1 {
+		font-size: 2em;
+		letter-spacing: 2px;
+		overflow-x: hidden;
+	}
+
+	.footer p {
+		font-size: 15px;
+	}
+
+	.my-projects h3 {
+		font-size: 25px;
+	}
+
+	#workexperience h2 {
+		font-size: 25px;
+	}
+
+	.about-me h3 {
+		font-size: 25px;
+	}
+
+	.about-me p {
+		font-size: 15px;
+	}
+
+	.ban-head h2 {
+		font-size: 25px;
+	}
+
+	.ban-head h3 {
+		font-size: 20px;
+	}
+
+	.ban-head p {
+		font-size: 15px;
+	}
+	#mode-toggler {
+		width: 25%;
+		font-size: 7px;
+	}
+
+}
+
+@media(max-width:240px) {
+	.ban-head {
+		padding-bottom: 20px;
+		overflow-x: hidden;
+		margin-top: -12em;
+	}
+	.banner {
+		height: 250px;
+	}
+	.body {
+		overflow-x: hidden;
+	}
+	.ban-head h1 {
+		font-size: 2em;
+		letter-spacing: 2px;
+		overflow-x: hidden;
+	}
+
+	.footer p {
+		font-size: 10px;
+	}
+
+	.my-projects h3 {
+		font-size: 20px;
+	}
+
+	#workexperience h2 {
+		font-size: 20px;
+	}
+
+	.about-me h3 {
+		font-size: 20px;
+	}
+
+	.about-me p {
+		font-size: 10px;
+	}
+
+	.ban-head h2 {
+		font-size: 20px;
+	}
+
+	.ban-head h3 {
+		font-size: 20px;
+	}
+
+	.ban-head p {
+		font-size: 10px;
+	}
+	#mode-toggler {
+		width: 25%;
+		font-size: 7px;
+	}
+
+}
+
+/*-- /responsive design --*/
