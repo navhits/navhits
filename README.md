@@ -16,7 +16,7 @@ Developer by heart. InfoSec by passion. I engage and volunteer for communities a
 ## 🧐 About
 
 ### TLDR;
-- 💼 Work: Freshworks Inc.
+- 💼 Work: Security Engineer @ [Freshworks Inc.](https://github.com/freshworks)
 - 👨‍💻 My page: https://navs.page
 - 📫 How to reach me: reachme@navs.page
 - 🌱 Languages and Tools: 
