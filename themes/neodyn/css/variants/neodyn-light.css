@@ -80,12 +80,12 @@ body h6 {
 	color: rgb(0, 0, 0);
 }
 
-.grid-item {
+.grid-item, .quick-link-grid-item {
     background: linear-gradient(315deg, #bfcde5, #e3f4ff);
     box-shadow:  -6px -6px 12px #b8c6dd, 
                 6px 6px 12px #f0ffff;
 }
-.grid-item:hover {
+.grid-item:hover, .quick-link-grid-item:hover {
     background: linear-gradient(145deg, #e3f4ff, #bfcde5);
     box-shadow:  6px 6px 12px #b8c6dd, 
                 -6px -6px 12px #f0ffff;

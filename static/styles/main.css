@@ -267,6 +267,11 @@ body a {
     margin-top: 20px;
 }
 
+.quick-links {
+	display: flex;
+  	align-items: center;
+}
+
 .about-me h3 {
 	font-size: 2em;
 	letter-spacing: 1px;

@@ -3,12 +3,27 @@
   gap: 30px 20px;
   grid-template-columns: auto auto auto;
   padding: 10px 0 50px 0;
+
+}
+
+.quick-link-grid {
+  display: grid;
+  gap: 30px 20px;
+  grid-template-columns: auto auto;
+  padding: 10px 0 10px 0;
+
 }
 
 .grid-item {
-
   padding: 20px;
   font-size: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.quick-link-grid-item {
+  padding: 20px;
+  font-size: 20px;
   text-align: center;
   border-radius: 10px;
 }
@@ -32,10 +47,16 @@
   .grid-container {
     grid-template-columns: auto auto;
   }
+  .quick-link-grid {
+    grid-template-columns: auto auto;
+  }
 }
 
 @media(max-width:500px) {
 	.grid-container {
+    grid-template-columns: auto;
+  }
+  .quick-link-grid {
     grid-template-columns: auto;
   }
 }
