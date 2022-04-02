@@ -109,7 +109,8 @@ body h6 {
 .agileinfo-social-grids ul li a i.fa.fa-twitter,
 .agileinfo-social-grids ul li a i.fa.fa-instagram,
 .agileinfo-social-grids ul li a i.fa.fa-github,
-.agileinfo-social-grids ul li a i.fa.fa-medium {
+.agileinfo-social-grids ul li a i.fa.fa-medium,
+.agileinfo-social-grids ul li a i.fa.fa-linkedin {
 	color: rgb(255, 255, 255);
 }
 
@@ -131,6 +132,12 @@ body h6 {
 .agileinfo-social-grids ul li a i.fa.fa-medium:hover {
 	background: rgb(255, 255, 255);
 	color: #000000;
+}
+
+.agileinfo-social-grids ul li a i.fa.fa-linkedin:hover {
+	background: #0277b5;
+    color: #FFFFFF;
+    
 }
 
 .footer p {
