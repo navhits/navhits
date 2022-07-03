@@ -1,8 +1,8 @@
-# 𝗛𝗲𝗹𝗹𝗼!
+# 𝗛𝗲𝗹𝗹𝗼 :wave:
 
-## I'm [Naveen](https://github.com/NAVHITS)!
+## I'm Naveen :smiley:
 
-Security Engineer @ [Freshworks (formerly Freshdesk)](https://freshworks.com)
+Security Engineer @ [Freshworks](https://freshworks.com) ([FRSH](https://www.nasdaq.com/market-activity/stocks/frsh))
 
 Developer from heart. InfoSec by passion. Community first person and an amateur guitarist..
 
@@ -13,8 +13,6 @@ Developer from heart. InfoSec by passion. Community first person and an amateur 
 - Personal Email: [reachme@navs.page](mailto:reachme@navs.page)
 - Work Email: [naveen.sunilkumar@freshworks.com](mailto:naveen.sunilkumar@freshworks.com)
 
-
-Have cool or crazy ideas? 🐝 💡 MCU fan? 🦸‍♀️ 🦸‍♂️ Casual talks involving leadership 🎩 , entrepreneurship👩‍💼 👨‍💼, career 📋, science 👩‍🔬👨‍🔬 or technology 📱💻⌚️🕹? [We could talk over a coffee ☕️ or tea 🍵](https://calendly.com/infosec-naveen/talk-to-me)
 
 
 <img src="https://github-profile-trophy.vercel.app/?username=navhits&theme=onedark&no-bg=true">
