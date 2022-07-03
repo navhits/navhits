@@ -12,6 +12,7 @@
         content="Naveen is a developer from heart and infosec by passion. Security Engineer @ Freshworks and volunteers for GDG and WTM Chennai.">
     <meta property="og:url" content="https://navs.page">
     <meta property="og:locale" content="en">
+    <link rel="icon" type="image/x-icon" href="static/images/favicon-light.png" id="faviconTag">
     <link rel="preconnect" href="//ajax.googleapis.com" crossorigin>
     <link rel="preconnect" href="//stackpath.bootstrapcdn.com" crossorigin>
     <link rel="preconnect" href="//maxcdn.bootstrapcdn.com" crossorigin>
@@ -66,7 +67,7 @@
                 <p style="padding-left: 20px; padding-right: 20px; line-height: 1.6;">
                     Naveen is a developer at heart with a passion for Information Security. His approach is data-driven and focused on simple problem-solving. He believes that goals can be achieved as a team and prefers to work this way.
                     <br />
-                    Naveen works on improving the effectiveness and effienciency of the security programs by bringing security closer to the developers. He volunteers for GDG & WTM Chennai to host a variety of tech events to help people learn and grow.
+                    Naveen works on improving the effectiveness and effienciency of the security programs by bringing security closer to the developers. He volunteers for GDG & WTM Chennai and hosts tech events to help people learn and grow.
                 </p>
             </div>
             
@@ -86,18 +87,11 @@
                 <div class="grid-container">
                     <div class="grid-item">
                         <a href="//freshworks.com" rel="noopener noreferrer" target="_blank">
-                            <h5 class="project-title">Freshworks Inc. <i class="fa fa-external-link"></i></h5>
+                            <h5 class="project-title">Security Engineer (Full time) <i class="fa fa-external-link"></i></h5>
                         </a>
-                        <h6 style="text-align: left; font-weight: 700;">Security Engineer (Full time) <span style="float: right; font-size: 12px;">Apr 2021 - Present</span></h6>
-                        <h6 style="text-align: left; font-weight: 1; margin-left: 10px;">Security Engineer GT (Trainee) <span style="float: right; font-size: 12px;">Oct 2020 - Apr 2021</span></h6>
-                        <h6 style="text-align: left; font-weight: 1; margin-left: 10px;">InfoSec Intern (Intership) <span style="float: right; font-size: 12px;">Jan 2020 - Oct 2020</span></h6>
-                    </div>
-                    <div class="grid-item">
-                        <a href="//t5developers.com" rel="noopener noreferrer" target="_blank">
-                            <h5 class="project-title">Developer (Part time) <i class="fa fa-external-link"></i></h5>
-                        </a>
-                        <p>May 2019 - Oct 2019</p>
-                        <h6>T5 Developers</h6>
+                        <p>Jan 2020 - Present</p>
+                        <h6>Freshworks (<a href="https://www.nasdaq.com/market-activity/stocks/frsh" 
+                            rel="noopener noreferrer" target="_blank">FRSH</a>)</h6>
                     </div>
                     <div class="grid-item">
                         <a href="//linkedin.com/in/qstechno-solutions-3a552a198/" rel="noopener noreferrer" target="_blank">
@@ -119,31 +113,33 @@
                 <h3 class="spaced-title">My Projects</h3>
                 <div class="grid-container">
                     <div class="grid-item">
+                        <a href="//github.com/navhits/gutils-python" rel="noopener noreferrer" target="_blank">
+                            <h5 class="project-title">G-Utils Python <i class="fa fa-external-link"></i></h5>
+                        </a>
+                        <h6>Abstract SDK for Google Workspace entity APIs with support for Oauth and Service account auth.</h6>
+                    </div>
+                    <div class="grid-item">
+                        <a href="//github.com/navhits/honey-i-shrunk-the-images-py" rel="noopener noreferrer" target="_blank">
+                            <h5 class="project-title">Honey I Shrunk the Images - Python Edition <i class="fa fa-external-link"></i></h5>
+                        </a>
+                        <h6>An experiment to shrink the size of the docker images for Python packages.</h6>
+                    </div>
+                    <div class="grid-item">
                         <a href="//ieeexplore.ieee.org/document/9315219" rel="noopener noreferrer" target="_blank">
                             <h5 class="project-title">Deep Learning for Attack Attribution <i class="fa fa-external-link"></i></h5>
                         </a>
-                        <p>Jul 2019 - Jul 2020</p>
                         <h6>Classification of Threat Actors based on Threat reports</h6>
                     </div>
                     <div class="grid-item">
-                        <a href="//github.com/NAVHITS/ti-modules" rel="noopener noreferrer" target="_blank">
-                            <h5 class="project-title">Collaborative Threat Intelligence <i class="fa fa-external-link"></i></h5>
-                        </a>
-                        <p>Apr 2020 - Present</p>
-                        <h6>Reusable publicly available Threat Intelligence APIs, written in Python</h6>
-                    </div>
-                    <div class="grid-item">
-                        <a href="//github.com/NAVHITS/EventsOnCampus" rel="noopener noreferrer" target="_blank">
+                        <a href="//github.com/navhits/EventsOnCampus" rel="noopener noreferrer" target="_blank">
                             <h5 class="project-title">Events on Campus <i class="fa fa-external-link"></i></h5>
                         </a>
-                        <p>Sept 2018 - Dec 2018</p>
                         <h6>A light weight Event Management prototype for institutions, written in PHP</h6>
                     </div>
                     <div class="grid-item">
                         <a href="#" rel="noopener noreferrer" target="_blank">
                             <h5 class="project-title">Project PhotoScope <i class="fa fa-external-link"></i></h5>
                         </a>
-                        <p>Nov 2017 - Apr 2018</p>
                         <h6>A design system for smart streen light using hexagon reflective tubes. Patent pending</h6>
                     </div>
                 </div>
@@ -181,6 +177,8 @@
             function changeTogglerText() {
                 var currentMode = DarkMode.getMode()
                 console.log(currentMode+" mode enabled")
+                const faviconTag = document.getElementById("faviconTag");
+                faviconTag.href = currentMode === 'light' ? 'static/images/favicon-light.png' : '/static/images/favicon-dark.png' 
                 ModeToggler.textContent = currentMode === 'light' ? 'Lights off 🌝' : 'Lights on 🌚'
             }
 
