@@ -87,7 +87,7 @@
                 <div class="grid-container">
                     <div class="grid-item">
                         <a href="//freshworks.com" rel="noopener noreferrer" target="_blank">
-                            <h5 class="project-title">Security Engineer (Full time) <i class="fa fa-external-link"></i></h5>
+                            <h5 class="project-title">Senior Security Engineer (Full time) <i class="fa fa-external-link"></i></h5>
                         </a>
                         <p>Jan 2020 - Present</p>
                         <h6>Freshworks (<a href="https://www.nasdaq.com/market-activity/stocks/frsh" 
@@ -142,6 +142,11 @@
                         </a>
                         <h6>A design system for smart streen light using hexagon reflective tubes. Patent pending</h6>
                     </div>
+                    <div class="grid-item">
+                        <a href="//github.com/navhits?tab=repositories&q=&type=source&language=&sort=" rel="noopener noreferrer" target="_blank">
+                            <h5 class="project-title">View more <i class="fa fa-external-link"></i></h5>
+                        </a>
+                    </div>
                 </div>
             </div>
             
@@ -149,9 +154,7 @@
     </section>
     <section class="footer">
         <p style="padding: 0 0 20px 0"><a href="/privacy" rel="noopener noreferrer" target="_blank">Privacy Policy</a></p>
-        <p>
-            <script>document.write(new Date().getFullYear())</script>. Hand baked with ❤️ by Naveen S
-        </p>
+        <p class="footer-text" id="footer-text"></p>
         
     </section>
     <script defer src="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -181,6 +184,10 @@
                 faviconTag.href = currentMode === 'light' ? 'static/images/favicon-light.png' : '/static/images/favicon-dark.png' 
                 ModeToggler.textContent = currentMode === 'light' ? 'Lights off 🌝' : 'Lights on 🌚'
             }
+
+            var footer_text = document.getElementById("footer-text")
+            var year = new Date().getFullYear()
+            footer_text.innerText = year+". Hand baked with ❤️ by Naveen S"
 
             
     </script>
