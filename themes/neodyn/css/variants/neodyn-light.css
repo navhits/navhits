@@ -4,11 +4,12 @@ body {
     animation: blurFadeIn 1.5s;
 }
 
-@keyframes blurFadeIn{
-    0%{
+@keyframes blurFadeIn {
+    0% {
         opacity: 0.25;
     }
-    100%{
+
+    100% {
         opacity: 1;
     }
 }
@@ -18,7 +19,7 @@ body a {
 }
 
 body p {
-	color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
 }
 
 body h6 {
@@ -27,68 +28,71 @@ body h6 {
 
 .banner {
     background-image: url(../../../../static/images/banner.svg);
-    background-repeat:no-repeat;
-    
+    background-repeat: no-repeat;
+
 }
 
 #mode-toggler {
     border: none;
     color: rgb(0, 0, 0);
     background: linear-gradient(145deg, #a7bee6, #c7e2ff);
-    box-shadow:  11px 11px 22px #95a9cc, 
-                -11px -11px 22px #dffdff;
+    box-shadow: 11px 11px 22px #95a9cc,
+        -11px -11px 22px #dffdff;
     cursor: pointer;
     outline: none;
 }
 
 #mode-toggler:active {
-    box-shadow: inset 11px 11px 22px #95a9cc, 
-                 inset -11px -11px 22px #dffdff;
+    box-shadow: inset 11px 11px 22px #95a9cc,
+        inset -11px -11px 22px #dffdff;
 }
 
-.typewrite > .wrap { 
+.typewrite>.wrap {
     border-right: 0.08em solid #000;
     color: #000;
-    overflow:auto;
+    overflow: auto;
 }
 
 .ban-head h2 {
-	color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
 }
 
 .ban-head h1 {
-	color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
 }
 
 .ban-head .spaced-title {
-	color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
 }
 
 .ban-head span {
-	color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
 }
 
-.about-me h3 {	
-	color: rgb(0, 0, 0);
+.about-me h3 {
+    color: rgb(0, 0, 0);
 }
 
 #workexperience h2 {
-	color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
 }
 
 .my-projects h3 {
-	color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
 }
 
-.grid-item, .quick-link-grid-item {
+.grid-item,
+.quick-link-grid-item {
     background: linear-gradient(315deg, #bfcde5, #e3f4ff);
-    box-shadow:  -6px -6px 12px #b8c6dd, 
-                6px 6px 12px #f0ffff;
+    box-shadow: -6px -6px 12px #b8c6dd,
+        6px 6px 12px #f0ffff;
 }
-.grid-item:hover, .quick-link-grid-item:hover {
+
+.grid-item:hover,
+.quick-link-grid-item:hover {
     background: linear-gradient(145deg, #e3f4ff, #bfcde5);
-    box-shadow:  6px 6px 12px #b8c6dd, 
-                -6px -6px 12px #f0ffff;
+    box-shadow: 6px 6px 12px #b8c6dd,
+        -6px -6px 12px #f0ffff;
 }
 
 .project-title {
@@ -98,12 +102,12 @@ body h6 {
 
 .my-profile-pic {
     background: #e3eefe;
-    box-shadow:  7px 7px 14px #7d838c, 
-                -7px -7px 14px #ffffff5e;
+    box-shadow: 7px 7px 14px #7d838c,
+        -7px -7px 14px #ffffff5e;
 }
 
 .agileinfo-social-grids ul li a {
-	color: #ffffff;
+    color: #ffffff;
 }
 
 .agileinfo-social-grids ul li a i.fa.fa-twitter,
@@ -115,30 +119,30 @@ body h6 {
 }
 
 .agileinfo-social-grids ul li a i.fa.fa-twitter:hover {
-	background: #1da1f2;
+    background: #1da1f2;
     color: #FFFFFF;
-    
+
 }
 
 .agileinfo-social-grids ul li a i.fa.fa-instagram:hover {
-	background: #f26b78;
-	color: #FFFFFF;
+    background: #f26b78;
+    color: #FFFFFF;
 }
 
 .agileinfo-social-grids ul li a i.fa.fa-github:hover {
-	background: #24292e;
-	color: #FFFFFF;
+    background: #24292e;
+    color: #FFFFFF;
 }
 
 .agileinfo-social-grids ul li a i.fa.fa-medium:hover {
-	background: #000;
-	color: #FFFFFF;
+    background: #000;
+    color: #FFFFFF;
 }
 
 .agileinfo-social-grids ul li a i.fa.fa-linkedin:hover {
-	background: #0277b5;
+    background: #0277b5;
     color: #FFFFFF;
-    
+
 }
 
 .footer p {

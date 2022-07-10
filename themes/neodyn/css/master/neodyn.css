@@ -127,6 +127,20 @@ table {
 	border-spacing: 0;
 }
 
+.keys {
+	font-family: monospace;
+	font-size: 15px;
+	color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #2b2b2b;
+	text-align: left;
+}
+
+.keys p {
+	padding: 5px 0 5px 0;
+}
+
 a {
 	text-decoration: none;
 }
@@ -233,8 +247,8 @@ body a {
 
 .banner {
 	display: block;
-  	-moz-box-sizing: border-box;
-  	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 	height: 850px;
 	background-size: 100%;
 }
@@ -262,9 +276,9 @@ body a {
 }
 
 .about-me {
-    padding-bottom: 20px;
-    overflow-x: hidden;
-    margin-top: 20px;
+	padding-bottom: 20px;
+	overflow-x: hidden;
+	margin-top: 20px;
 }
 
 .about-me h3 {
@@ -274,7 +288,7 @@ body a {
 }
 
 #workexperience h2 {
-    font-size: 2em;
+	font-size: 2em;
 	letter-spacing: 1px;
 	font-family: 'Roboto', sans-serif;
 }
@@ -285,8 +299,14 @@ body a {
 	font-family: 'Roboto', sans-serif;
 }
 
+.public-keys h3 {
+	font-size: 2em;
+	letter-spacing: 1px;
+	font-family: 'Roboto', sans-serif;
+}
+
 .spaced-title {
-    padding: 30px;
+	padding: 30px;
 }
 
 .main-section {
@@ -296,8 +316,8 @@ body a {
 
 .my-profile-pic {
 	margin-bottom: 25px;
-    max-width: 100%;
-    border-radius: 50%;
+	max-width: 100%;
+	border-radius: 50%;
 }
 
 
@@ -392,9 +412,11 @@ a {
 		overflow-x: hidden;
 		margin-top: -19em;
 	}
+
 	.banner {
 		height: 840px;
 	}
+
 	.my-profile-pic {
 		margin-bottom: 15px;
 		max-width: 30%;
@@ -406,11 +428,13 @@ a {
 		letter-spacing: 7px;
 		overflow-x: hidden;
 	}
+
 	.footer p {
 		font-size: 20px;
 	}
 
-	.my-projects h3 {
+	.my-projects h3,
+	.public-keys h3 {
 		font-size: 30px;
 	}
 
@@ -445,6 +469,7 @@ a {
 		overflow-x: hidden;
 		margin-top: -25em;
 	}
+
 	.banner {
 		height: 860px;
 	}
@@ -460,11 +485,13 @@ a {
 		letter-spacing: 7px;
 		overflow-x: hidden;
 	}
+
 	.footer p {
 		font-size: 20px;
 	}
 
-	.my-projects h3 {
+	.my-projects h3,
+	.public-keys h3 {
 		font-size: 30px;
 	}
 
@@ -500,6 +527,7 @@ a {
 		overflow-x: hidden;
 		margin-top: -11em;
 	}
+
 	.banner {
 		height: 550px;
 	}
@@ -515,11 +543,13 @@ a {
 		letter-spacing: 7px;
 		overflow-x: hidden;
 	}
+
 	.footer p {
 		font-size: 20px;
 	}
 
-	.my-projects h3 {
+	.my-projects h3,
+	.public-keys h3 {
 		font-size: 30px;
 	}
 
@@ -554,9 +584,11 @@ a {
 		overflow-x: hidden;
 		margin-top: -9em;
 	}
+
 	.banner {
 		height: 500px;
 	}
+
 	.my-profile-pic {
 		margin-bottom: 15px;
 		max-width: 20%;
@@ -568,19 +600,18 @@ a {
 		letter-spacing: 7px;
 		overflow-x: hidden;
 	}
+
 	.footer p {
 		font-size: 18px;
 	}
 
-	.my-projects h3 {
+	.about-me h3,
+	.my-projects h3,
+	.public-keys h3 {
 		font-size: 28px;
 	}
 
 	#workexperience h2 {
-		font-size: 28px;
-	}
-
-	.about-me h3 {
 		font-size: 28px;
 	}
 
@@ -607,9 +638,11 @@ a {
 		overflow-x: hidden;
 		margin-top: -8em;
 	}
+
 	.banner {
 		height: 450px;
 	}
+
 	.my-profile-pic {
 		margin-bottom: 15px;
 		max-width: 20%;
@@ -621,11 +654,14 @@ a {
 		letter-spacing: 7px;
 		overflow-x: hidden;
 	}
+
 	.footer p {
 		font-size: 18px;
 	}
 
-	.my-projects h3 {
+	.about-me h3,
+	.my-projects h3,
+	.public-keys h3 {
 		font-size: 28px;
 	}
 
@@ -633,9 +669,6 @@ a {
 		font-size: 28px;
 	}
 
-	.about-me h3 {
-		font-size: 28px;
-	}
 
 	.about-me p {
 		font-size: 18px;
@@ -660,6 +693,7 @@ a {
 		overflow-x: hidden;
 		margin-top: -10.2em;
 	}
+
 	.banner {
 		height: 425px;
 	}
@@ -675,11 +709,14 @@ a {
 		letter-spacing: 7px;
 		overflow-x: hidden;
 	}
+
 	.footer p {
 		font-size: 18px;
 	}
 
-	.my-projects h3 {
+	.about-me h3,
+	.my-projects h3,
+	.public-keys h3 {
 		font-size: 28px;
 	}
 
@@ -687,9 +724,7 @@ a {
 		font-size: 28px;
 	}
 
-	.about-me h3 {
-		font-size: 28px;
-	}
+
 
 	.about-me p {
 		font-size: 18px;
@@ -714,9 +749,11 @@ a {
 		overflow-x: hidden;
 		margin-top: -6.5em;
 	}
+
 	.banner {
 		height: 350px;
 	}
+
 	.my-profile-pic {
 		margin-bottom: 15px;
 		max-width: 20%;
@@ -728,11 +765,14 @@ a {
 		letter-spacing: 7px;
 		overflow-x: hidden;
 	}
+
 	.footer p {
 		font-size: 18px;
 	}
 
-	.my-projects h3 {
+	.about-me h3,
+	.my-projects h3,
+	.public-keys h3 {
 		font-size: 28px;
 	}
 
@@ -740,9 +780,6 @@ a {
 		font-size: 28px;
 	}
 
-	.about-me h3 {
-		font-size: 28px;
-	}
 
 	.about-me p {
 		font-size: 18px;
@@ -767,9 +804,11 @@ a {
 		overflow-x: hidden;
 		margin-top: -5.5em;
 	}
+
 	.banner {
 		height: 330px;
 	}
+
 	.my-profile-pic {
 		margin-bottom: 15px;
 		max-width: 25%;
@@ -781,11 +820,14 @@ a {
 		letter-spacing: 7px;
 		overflow-x: hidden;
 	}
+
 	.footer p {
 		font-size: 18px;
 	}
 
-	.my-projects h3 {
+	.about-me h3,
+	.my-projects h3,
+	.public-keys h3 {
 		font-size: 28px;
 	}
 
@@ -793,9 +835,7 @@ a {
 		font-size: 28px;
 	}
 
-	.about-me h3 {
-		font-size: 28px;
-	}
+
 
 	.about-me p {
 		font-size: 18px;
@@ -820,9 +860,11 @@ a {
 		overflow-x: hidden;
 		margin-top: -8.5em;
 	}
+
 	.banner {
 		height: 330px;
 	}
+
 	.my-profile-pic {
 		margin-bottom: 15px;
 		max-width: 20%;
@@ -834,11 +876,14 @@ a {
 		letter-spacing: 7px;
 		overflow-x: hidden;
 	}
+
 	.footer p {
 		font-size: 18px;
 	}
 
-	.my-projects h3 {
+	.about-me h3,
+	.my-projects h3,
+	.public-keys h3 {
 		font-size: 28px;
 	}
 
@@ -846,9 +891,6 @@ a {
 		font-size: 28px;
 	}
 
-	.about-me h3 {
-		font-size: 28px;
-	}
 
 	.about-me p {
 		font-size: 18px;
@@ -865,6 +907,7 @@ a {
 	.ban-head p {
 		font-size: 18px;
 	}
+
 	.examples {
 		width: 80%;
 	}
@@ -876,6 +919,7 @@ a {
 		overflow-x: hidden;
 		margin-top: -9.5em;
 	}
+
 	.banner {
 		height: 330px;
 	}
@@ -891,11 +935,14 @@ a {
 		letter-spacing: 7px;
 		overflow-x: hidden;
 	}
+
 	.footer p {
 		font-size: 18px;
 	}
 
-	.my-projects h3 {
+	.about-me h3,
+	.my-projects h3,
+	.public-keys h3 {
 		font-size: 28px;
 	}
 
@@ -903,9 +950,7 @@ a {
 		font-size: 28px;
 	}
 
-	.about-me h3 {
-		font-size: 28px;
-	}
+
 
 	.about-me p {
 		font-size: 18px;
@@ -930,6 +975,7 @@ a {
 		overflow-x: hidden;
 		margin-top: -4.5em;
 	}
+
 	.banner {
 		height: 250px;
 	}
@@ -945,11 +991,14 @@ a {
 		letter-spacing: 7px;
 		overflow-x: hidden;
 	}
+
 	.footer p {
 		font-size: 18px;
 	}
 
-	.my-projects h3 {
+	.about-me h3,
+	.my-projects h3,
+	.public-keys h3 {
 		font-size: 28px;
 	}
 
@@ -957,9 +1006,6 @@ a {
 		font-size: 28px;
 	}
 
-	.about-me h3 {
-		font-size: 28px;
-	}
 
 	.about-me p {
 		font-size: 18px;
@@ -984,14 +1030,17 @@ a {
 		letter-spacing: 7px;
 		overflow-x: hidden;
 	}
+
 	.ban-head {
 		padding-bottom: 20px;
 		overflow-x: hidden;
 		margin-top: -6.5em;
 	}
+
 	.banner {
 		height: 250px;
 	}
+
 	.my-profile-pic {
 		margin-bottom: 15px;
 		max-width: 25%;
@@ -1003,11 +1052,14 @@ a {
 		letter-spacing: 7px;
 		overflow-x: hidden;
 	}
+
 	.footer p {
 		font-size: 18px;
 	}
 
-	.my-projects h3 {
+	.about-me h3,
+	.my-projects h3,
+	.public-keys h3 {
 		font-size: 28px;
 	}
 
@@ -1015,9 +1067,6 @@ a {
 		font-size: 28px;
 	}
 
-	.about-me h3 {
-		font-size: 28px;
-	}
 
 	.about-me p {
 		font-size: 18px;
@@ -1043,9 +1092,11 @@ a {
 		overflow-x: hidden;
 		margin-top: -6em;
 	}
+
 	.banner {
 		height: 250px;
 	}
+
 	.my-profile-pic {
 		margin-bottom: 15px;
 		max-width: 20%;
@@ -1057,11 +1108,14 @@ a {
 		letter-spacing: 7px;
 		overflow-x: hidden;
 	}
+
 	.footer p {
 		font-size: 18px;
 	}
 
-	.my-projects h3 {
+	.about-me h3,
+	.my-projects h3,
+	.public-keys h3 {
 		font-size: 28px;
 	}
 
@@ -1069,9 +1123,6 @@ a {
 		font-size: 28px;
 	}
 
-	.about-me h3 {
-		font-size: 28px;
-	}
 
 	.about-me p {
 		font-size: 18px;
@@ -1094,22 +1145,27 @@ a {
 	.column {
 		width: 100%;
 	}
+
 	.body {
 		overflow-x: hidden;
 	}
+
 	.ban-head {
 		padding-bottom: 20px;
 		overflow-x: hidden;
 		margin-top: -7em;
 	}
+
 	.banner {
 		height: 255px;
 	}
+
 	.my-profile-pic {
 		margin-bottom: 15px;
 		max-width: 20%;
 		overflow-x: hidden;
 	}
+
 	.agileinfo-social-grids {
 		margin-top: 0;
 	}
@@ -1154,9 +1210,11 @@ a {
 		overflow-x: hidden;
 		margin-top: -7.5em;
 	}
+
 	.banner {
 		height: 250px;
 	}
+
 	.ban-head h1 {
 		font-size: 3em;
 		letter-spacing: 7px;
@@ -1167,7 +1225,9 @@ a {
 		font-size: 18px;
 	}
 
-	.my-projects h3 {
+	.about-me h3,
+	.my-projects h3,
+	.public-keys h3 {
 		font-size: 28px;
 	}
 
@@ -1175,9 +1235,6 @@ a {
 		font-size: 28px;
 	}
 
-	.about-me h3 {
-		font-size: 28px;
-	}
 
 	.about-me p {
 		font-size: 18px;
@@ -1194,6 +1251,7 @@ a {
 	.ban-head p {
 		font-size: 18px;
 	}
+
 	#mode-toggler {
 		width: 25%;
 		font-size: 12px;
@@ -1207,26 +1265,27 @@ a {
 		overflow-x: hidden;
 		margin-top: -8em;
 	}
+
 	.banner {
 		height: 240px;
 	}
+
 	.ban-head h1 {
 		font-size: 2.8em;
 		letter-spacing: 2px;
 	}
+
 	.footer p {
 		font-size: 18px;
 	}
 
-	.my-projects h3 {
+	.about-me h3,
+	.my-projects h3,
+	.public-keys h3 {
 		font-size: 28px;
 	}
 
 	#workexperience h2 {
-		font-size: 28px;
-	}
-
-	.about-me h3 {
 		font-size: 28px;
 	}
 
@@ -1245,20 +1304,24 @@ a {
 	.ban-head p {
 		font-size: 18px;
 	}
+
 	#mode-toggler {
 		width: 25%;
 		font-size: 10px;
 	}
 }
+
 @media(max-width:425px) {
 	.ban-head {
 		padding-bottom: 20px;
 		overflow-x: hidden;
 		margin-top: -9em;
 	}
+
 	.banner {
 		height: 245px;
 	}
+
 	.ban-head h1 {
 		font-size: 2.8em;
 		letter-spacing: 2px;
@@ -1268,15 +1331,13 @@ a {
 		font-size: 15px;
 	}
 
-	.my-projects h3 {
+	.about-me h3,
+	.my-projects h3,
+	.public-keys h3 {
 		font-size: 25px;
 	}
 
 	#workexperience h2 {
-		font-size: 25px;
-	}
-
-	.about-me h3 {
 		font-size: 25px;
 	}
 
@@ -1295,6 +1356,7 @@ a {
 	.ban-head p {
 		font-size: 15px;
 	}
+
 	#mode-toggler {
 		width: 25%;
 		font-size: 10px;
@@ -1307,30 +1369,32 @@ a {
 		overflow-x: hidden;
 		margin-top: -9em;
 	}
+
 	.banner {
 		height: 240px;
 	}
+
 	.ban-head h1 {
 		font-size: 2.5em;
 		letter-spacing: 2px;
 	}
+
 	.ban-head h1 {
 		font-size: 2.2em;
 		letter-spacing: 2px;
 	}
+
 	.footer p {
 		font-size: 15px;
 	}
 
-	.my-projects h3 {
+	.about-me h3,
+	.my-projects h3,
+	.public-keys h3 {
 		font-size: 25px;
 	}
 
 	#workexperience h2 {
-		font-size: 25px;
-	}
-
-	.about-me h3 {
 		font-size: 25px;
 	}
 
@@ -1349,6 +1413,7 @@ a {
 	.ban-head p {
 		font-size: 15px;
 	}
+
 	#mode-toggler {
 		width: 25%;
 		font-size: 10px;
@@ -1362,9 +1427,11 @@ a {
 		overflow-x: hidden;
 		margin-top: -9.7em;
 	}
+
 	.banner {
 		height: 250px;
 	}
+
 	.body {
 		overflow-x: hidden;
 	}
@@ -1373,15 +1440,13 @@ a {
 		font-size: 15px;
 	}
 
-	.my-projects h3 {
+	.about-me h3,
+	.my-projects h3,
+	.public-keys h3 {
 		font-size: 25px;
 	}
 
 	#workexperience h2 {
-		font-size: 25px;
-	}
-
-	.about-me h3 {
 		font-size: 25px;
 	}
 
@@ -1400,6 +1465,7 @@ a {
 	.ban-head p {
 		font-size: 15px;
 	}
+
 	#mode-toggler {
 		width: 25%;
 		font-size: 10px;
@@ -1413,10 +1479,11 @@ a {
 		overflow-x: hidden;
 		margin-top: -10em;
 	}
+
 	.banner {
 		height: 250px;
 	}
-	
+
 	.body {
 		overflow-x: hidden;
 	}
@@ -1425,15 +1492,13 @@ a {
 		font-size: 15px;
 	}
 
-	.my-projects h3 {
+	.about-me h3,
+	.my-projects h3,
+	.public-keys h3 {
 		font-size: 25px;
 	}
 
 	#workexperience h2 {
-		font-size: 25px;
-	}
-
-	.about-me h3 {
 		font-size: 25px;
 	}
 
@@ -1452,6 +1517,7 @@ a {
 	.ban-head p {
 		font-size: 15px;
 	}
+
 	#mode-toggler {
 		width: 25%;
 		font-size: 10px;
@@ -1464,12 +1530,15 @@ a {
 		overflow-x: hidden;
 		margin-top: -10.5em;
 	}
+
 	.banner {
 		height: 250px;
 	}
+
 	.body {
 		overflow-x: hidden;
 	}
+
 	.ban-head h1 {
 		font-size: 2em;
 		letter-spacing: 2px;
@@ -1480,7 +1549,9 @@ a {
 		font-size: 15px;
 	}
 
-	.my-projects h3 {
+	.about-me h3,
+	.my-projects h3,
+	.public-keys h3 {
 		font-size: 25px;
 	}
 
@@ -1488,9 +1559,6 @@ a {
 		font-size: 25px;
 	}
 
-	.about-me h3 {
-		font-size: 25px;
-	}
 
 	.about-me p {
 		font-size: 15px;
@@ -1507,6 +1575,7 @@ a {
 	.ban-head p {
 		font-size: 15px;
 	}
+
 	#mode-toggler {
 		width: 25%;
 		font-size: 10px;
@@ -1520,12 +1589,15 @@ a {
 		overflow-x: hidden;
 		margin-top: -11.5em;
 	}
+
 	.banner {
 		height: 250px;
 	}
+
 	.body {
 		overflow-x: hidden;
 	}
+
 	.ban-head h1 {
 		font-size: 2em;
 		letter-spacing: 2px;
@@ -1536,7 +1608,9 @@ a {
 		font-size: 15px;
 	}
 
-	.my-projects h3 {
+	.about-me h3,
+	.my-projects h3,
+	.public-keys h3 {
 		font-size: 25px;
 	}
 
@@ -1544,9 +1618,6 @@ a {
 		font-size: 25px;
 	}
 
-	.about-me h3 {
-		font-size: 25px;
-	}
 
 	.about-me p {
 		font-size: 15px;
@@ -1563,6 +1634,7 @@ a {
 	.ban-head p {
 		font-size: 15px;
 	}
+
 	#mode-toggler {
 		width: 25%;
 		font-size: 7px;
@@ -1576,12 +1648,15 @@ a {
 		overflow-x: hidden;
 		margin-top: -12em;
 	}
+
 	.banner {
 		height: 250px;
 	}
+
 	.body {
 		overflow-x: hidden;
 	}
+
 	.ban-head h1 {
 		font-size: 2em;
 		letter-spacing: 2px;
@@ -1592,7 +1667,9 @@ a {
 		font-size: 10px;
 	}
 
-	.my-projects h3 {
+	.about-me h3,
+	.my-projects h3,
+	.public-keys h3 {
 		font-size: 20px;
 	}
 
@@ -1600,9 +1677,6 @@ a {
 		font-size: 20px;
 	}
 
-	.about-me h3 {
-		font-size: 20px;
-	}
 
 	.about-me p {
 		font-size: 10px;
@@ -1619,6 +1693,7 @@ a {
 	.ban-head p {
 		font-size: 10px;
 	}
+
 	#mode-toggler {
 		width: 25%;
 		font-size: 7px;

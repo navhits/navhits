@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Naveen's Public Keys</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta property="og:title" content="Naveen's Public Keys">
+    <meta name="description"
+        content="This page lists all valid public keys of mine">
+    <meta property="og:description"
+        content="This page lists all valid public keys of mine">
+    <meta property="og:url" content="https://navs.page">
+    <meta property="og:locale" content="en">
+    <link rel="icon" type="image/x-icon" href="static/images/favicon-light.png" id="faviconTag">
+    <link rel="preconnect" href="//ajax.googleapis.com" crossorigin>
+    <link rel="preconnect" href="//stackpath.bootstrapcdn.com" crossorigin>
+    <link rel="preconnect" href="//maxcdn.bootstrapcdn.com" crossorigin>
+    <script defer src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="themes/neodyn/css/master/neodyn.css" rel='stylesheet' type='text/css' />
+    <link href="static/styles/grid.css" rel='stylesheet' type='text/css' />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section class="main-section">
+        <div id="banner" class="banner"></div>
+        <button style="z-index:9; position: absolute; right:10px; top: 10px" id="mode-toggler" class="btn">Lights off
+            🌝</button>
+        <div class="container">
+            <div class="ban-head">
+                <img class="my-profile-pic" src="static/images/profile.png"
+                    onerror="this.onerror=null;this.src='static/images/profile-fallback.jpeg';" width="200px"
+                    alt="Profile picture of Naveen">
+            </div>
+            <div class="public-keys">
+                <h3 class="spaced-title">My Public Keys</h3>
+                <div class="keys">
+                    <p>ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOFme1Zj3reEqoyB4JQwn7NWcR7aLXto24sqACSikiuT macbookpro15-intelci7-2019@navs.page</p>
+                    <p>ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPdE4b+sg+A2I4zSUmgw5sQPh+0sUmza7xyAsSHlDrew macbookpro16-siliconm1pro-2021@navs.page</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <p style="padding: 0 0 20px 0"><a href="/privacy" rel="noopener noreferrer" target="_blank">Privacy Policy</a>
+        </p>
+        <p class="footer-text" id="footer-text"></p>
+
+    </section>
+    <script defer src="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script defer src="static/js/type.js"></script>
+    <script defer src="js/main.js"></script>
+    <script src="themes/neodyn/js/neodyn.js"></script>
+    <script defer>
+         var options = {
+                light: "themes/neodyn/css/variants/neodyn-light.css",
+                dark: "themes/neodyn/css/variants/neodyn-dark.css"
+            };
+            var DarkMode = new DarkMode(options);
+            var ModeToggler = document.getElementById('mode-toggler')
+            var imgElement = document.getElementById('banner');
+            changeTogglerText()
+
+            ModeToggler.onclick = function () {
+                DarkMode.toggleMode()
+                changeTogglerText()
+                
+            }
+
+            function changeTogglerText() {
+                var currentMode = DarkMode.getMode()
+                console.log(currentMode+" mode enabled")
+                const faviconTag = document.getElementById("faviconTag");
+                faviconTag.href = currentMode === 'light' ? 'static/images/favicon-light.png' : 'static/images/favicon-dark.png' 
+                ModeToggler.textContent = currentMode === 'light' ? 'Lights off 🌝' : 'Lights on 🌚'
+            }
+
+            var footer_text = document.getElementById("footer-text")
+            var year = new Date().getFullYear()
+            footer_text.innerText = year+". Hand baked with ❤️ by Naveen S"
+
+            
+    </script>
+</body>
+
+</html>
