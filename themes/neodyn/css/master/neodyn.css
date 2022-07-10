@@ -130,6 +130,18 @@ q:after {
 	white-space: nowrap;
 }
 
+.keys-block {
+	font-family: monospace;
+	padding: 5px;
+	border-radius: 5px;
+	overflow-x: scroll;
+}
+
+.keys-block pre {
+	padding: 5px 5px 5px 5px;
+	font-size: 15px;
+	text-align: left;
+}
 .privacy {
 	overflow-x: hidden;
 	margin-top: 20px;
@@ -328,6 +340,11 @@ body a {
 	font-family: 'Roboto', sans-serif;
 }
 
+.my-keys h4 {
+	font-size: 1.5em;
+	letter-spacing: 1px;
+		
+}
 .my-keys p {
 	text-align: left;
 	font-size: 15px;

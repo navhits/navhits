@@ -92,6 +92,7 @@ td {
 
 .my-projects h3,
 .my-keys h3,
+.my-keys h4,
 .about-me h3,
 .privacy-content h3 {
     color: rgb(0, 0, 0);
@@ -161,9 +162,12 @@ td {
 
 }
 
-.keys {
+.keys,
+.keys-block,
+.keys-block pre {
     color: #000;
     background-color: #fff;
+    border: none;
 }
 
 .footer p {
