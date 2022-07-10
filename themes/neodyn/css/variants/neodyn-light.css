@@ -26,6 +26,19 @@ body h6 {
     color: rgb(0, 0, 0);
 }
 
+.privacy h1,
+.privacy ul li {
+    color: #000;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: #000;
+}
+
 .banner {
     background-image: url(../../../../static/images/banner.svg);
     background-repeat: no-repeat;
@@ -77,7 +90,10 @@ body h6 {
     color: rgb(0, 0, 0);
 }
 
-.my-projects h3, .my-keys h3 {
+.my-projects h3,
+.my-keys h3,
+.about-me h3,
+.privacy-content h3 {
     color: rgb(0, 0, 0);
 }
 

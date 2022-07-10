@@ -27,6 +27,22 @@ body h6 {
     color: #fff;
 }
 
+
+table,
+th,
+td {
+    border: 1px solid #fff;
+    border-collapse: collapse;
+    color: #fff;
+}
+
+
+.privacy h1,
+.privacy ul li {
+    color: #fff;
+}
+
+
 .banner {
     background-image: url(../../../../static/images/banner-dark.svg);
     background-repeat: no-repeat;
@@ -69,15 +85,14 @@ body h6 {
     color: rgb(255, 255, 255);
 }
 
-.about-me h3 {
-    color: rgb(255, 255, 255);
-}
-
 #workexperience h2 {
     color: rgb(255, 255, 255);
 }
 
-.my-projects h3, .my-keys h3 {
+.about-me h3,
+.my-projects h3,
+.my-keys h3,
+.privacy-content h3 {
     color: rgb(255, 255, 255);
 }
 
