@@ -121,6 +121,10 @@ q:after {
 	content: none;
 }
 
+.ban-head .name-first-letter {
+	font-weight: bold
+}
+
 .keys {
 	font-family: monospace;
 	padding: 5px;
@@ -142,6 +146,7 @@ q:after {
 	font-size: 15px;
 	text-align: left;
 }
+
 .privacy {
 	overflow-x: hidden;
 	margin-top: 20px;
@@ -295,7 +300,8 @@ body a {
 
 /*--banner--*/
 
-.banner {
+.banner,
+.banner-oth {
 	display: block;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -305,7 +311,6 @@ body a {
 
 .ban-head {
 	overflow-x: hidden;
-	margin-top: -6em;
 }
 
 .ban-head h2 {
@@ -343,8 +348,9 @@ body a {
 .my-keys h4 {
 	font-size: 1.5em;
 	letter-spacing: 1px;
-		
+
 }
+
 .my-keys p {
 	text-align: left;
 	font-size: 15px;
@@ -458,21 +464,88 @@ a {
 
 
 /*-- /responsive design --*/
+@media(max-width:2560px) {
+	.ban-head {
+			padding-bottom: 20px;
+			overflow-x: hidden;
+			margin-top: -19em;
+		}
+	
+		.banner {
+			height: 990px;
+		}
+	
+		.banner-oth {
+			height: 1050px;
+		}
+	
+		.my-profile-pic {
+			margin-bottom: 15px;
+			max-width: 30%;
+			overflow-x: hidden;
+		}
+	
+		.ban-head h1 {
+			font-size: 3em;
+			letter-spacing: 7px;
+			overflow-x: hidden;
+		}
+	
+		.footer p {
+			font-size: 20px;
+		}
+	
+		.my-projects h3,
+		.my-keys h3 {
+			font-size: 30px;
+		}
+	
+		#workexperience h2 {
+			font-size: 40px;
+		}
+	
+		.about-me h3 {
+			font-size: 40px;
+		}
+	
+		.about-me p {
+			font-size: 30px;
+		}
+	
+		.ban-head h2 {
+			font-size: 50px;
+		}
+	
+		.ban-head h3 {
+			font-size: 40px;
+		}
 
+		.ban-head .name-first-letter {
+			font-size: 60px;
+		}
+	
+		.ban-head p {
+			font-size: 30px;
+		}
+}
 @media(max-width:1920px) {
 	.ban-head {
 		padding-bottom: 20px;
 		overflow-x: hidden;
-		margin-top: -19em;
+		margin-top: -23em;
 	}
 
 	.banner {
 		height: 840px;
 	}
 
+	.banner-oth {
+		height: 580px;
+	}
+
 	.my-profile-pic {
 		margin-bottom: 15px;
-		max-width: 30%;
+		max-width: 18%;
 		overflow-x: hidden;
 	}
 
@@ -509,6 +582,10 @@ a {
 
 	.ban-head h3 {
 		font-size: 25px;
+	}
+
+	.ban-head .name-first-letter {
+		font-size: 40px;
 	}
 
 	.ban-head p {
@@ -529,7 +606,7 @@ a {
 
 	.my-profile-pic {
 		margin-bottom: 15px;
-		max-width: 20%;
+		max-width: 17%;
 		overflow-x: hidden;
 	}
 
@@ -568,6 +645,10 @@ a {
 		font-size: 25px;
 	}
 
+	.ban-head .name-first-letter {
+		font-size: 40px;
+	}
+	
 	.ban-head p {
 		font-size: 20px;
 	}
@@ -585,9 +666,13 @@ a {
 		height: 550px;
 	}
 
+	.banner-oth {
+		height: 500px;
+	}
+
 	.my-profile-pic {
 		margin-bottom: 15px;
-		max-width: 20%;
+		max-width: 17%;
 		overflow-x: hidden;
 	}
 
@@ -624,6 +709,10 @@ a {
 
 	.ban-head h3 {
 		font-size: 25px;
+	}
+
+	.ban-head .name-first-letter {
+		font-size: 40px;
 	}
 
 	.ban-head p {
@@ -642,9 +731,13 @@ a {
 		height: 500px;
 	}
 
+	.banner-oth {
+		height: 470px;
+	}
+
 	.my-profile-pic {
 		margin-bottom: 15px;
-		max-width: 20%;
+		max-width: 16%;
 		overflow-x: hidden;
 	}
 
@@ -679,6 +772,10 @@ a {
 
 	.ban-head h3 {
 		font-size: 23px;
+	}
+
+	.ban-head .name-first-letter {
+		font-size: 40px;
 	}
 
 	.ban-head p {
@@ -697,9 +794,13 @@ a {
 		height: 450px;
 	}
 
+	.banner-oth {
+		height: 450px;
+	}
+
 	.my-profile-pic {
 		margin-bottom: 15px;
-		max-width: 20%;
+		max-width: 17%;
 		overflow-x: hidden;
 	}
 
@@ -735,6 +836,10 @@ a {
 
 	.ban-head h3 {
 		font-size: 23px;
+	}
+
+	.ban-head .name-first-letter {
+		font-size: 35px;
 	}
 
 	.ban-head p {
@@ -753,6 +858,10 @@ a {
 		height: 425px;
 	}
 
+	.banner-oth {
+		height: 370px;
+	}
+
 	.my-profile-pic {
 		margin-bottom: 15px;
 		max-width: 20%;
@@ -780,8 +889,6 @@ a {
 		font-size: 28px;
 	}
 
-
-
 	.about-me p {
 		font-size: 18px;
 	}
@@ -792,6 +899,10 @@ a {
 
 	.ban-head h3 {
 		font-size: 23px;
+	}
+
+	.ban-head .name-first-letter {
+		font-size: 35px;
 	}
 
 	.ban-head p {
@@ -810,6 +921,10 @@ a {
 		height: 350px;
 	}
 
+	.banner-oth {
+		height: 330px;
+	}
+
 	.my-profile-pic {
 		margin-bottom: 15px;
 		max-width: 20%;
@@ -837,7 +952,6 @@ a {
 		font-size: 28px;
 	}
 
-
 	.about-me p {
 		font-size: 18px;
 	}
@@ -849,7 +963,11 @@ a {
 	.ban-head h3 {
 		font-size: 23px;
 	}
-
+	
+	.ban-head .name-first-letter {
+		font-size: 35px;
+	}
+	
 	.ban-head p {
 		font-size: 18px;
 	}
@@ -866,9 +984,13 @@ a {
 		height: 330px;
 	}
 
+	.banner-oth {
+		height: 330px;
+	}
+
 	.my-profile-pic {
 		margin-bottom: 15px;
-		max-width: 25%;
+		max-width: 23%;
 		overflow-x: hidden;
 	}
 
@@ -893,8 +1015,6 @@ a {
 		font-size: 28px;
 	}
 
-
-
 	.about-me p {
 		font-size: 18px;
 	}
@@ -907,6 +1027,10 @@ a {
 		font-size: 23px;
 	}
 
+	.ban-head .name-first-letter {
+		font-size: 35px;
+	}
+	
 	.ban-head p {
 		font-size: 18px;
 	}
@@ -921,6 +1045,10 @@ a {
 
 	.banner {
 		height: 330px;
+	}
+
+	.banner-oth {
+		height: 270px;
 	}
 
 	.my-profile-pic {
@@ -961,6 +1089,10 @@ a {
 
 	.ban-head h3 {
 		font-size: 23px;
+	}
+
+	.ban-head .name-first-letter {
+		font-size: 35px;
 	}
 
 	.ban-head p {
@@ -983,6 +1115,10 @@ a {
 		height: 330px;
 	}
 
+	.banner-oth {
+		height: 250px;
+	}
+
 	.my-profile-pic {
 		margin-bottom: 15px;
 		max-width: 20%;
@@ -1010,8 +1146,6 @@ a {
 		font-size: 28px;
 	}
 
-
-
 	.about-me p {
 		font-size: 18px;
 	}
@@ -1024,6 +1158,10 @@ a {
 		font-size: 23px;
 	}
 
+	.ban-head .name-first-letter {
+		font-size: 35px;
+	}
+	
 	.ban-head p {
 		font-size: 18px;
 	}
@@ -1037,6 +1175,10 @@ a {
 	}
 
 	.banner {
+		height: 250px;
+	}
+
+	.banner-oth {
 		height: 250px;
 	}
 
@@ -1080,6 +1222,10 @@ a {
 		font-size: 23px;
 	}
 
+	.ban-head .name-first-letter {
+		font-size: 35px;
+	}
+
 	.ban-head p {
 		font-size: 18px;
 	}
@@ -1102,9 +1248,13 @@ a {
 		height: 250px;
 	}
 
+	.banner-oth {
+		height: 220px;
+	}
+
 	.my-profile-pic {
 		margin-bottom: 15px;
-		max-width: 25%;
+		max-width: 22%;
 		overflow-x: hidden;
 	}
 
@@ -1140,6 +1290,10 @@ a {
 
 	.ban-head h3 {
 		font-size: 23px;
+	}
+
+	.ban-head .name-first-letter {
+		font-size: 35px;
 	}
 
 	.ban-head p {
@@ -1159,9 +1313,13 @@ a {
 		height: 250px;
 	}
 
+	.banner-oth {
+		height: 220px;
+	}
+
 	.my-profile-pic {
 		margin-bottom: 15px;
-		max-width: 20%;
+		max-width: 18%;
 		overflow-x: hidden;
 	}
 
@@ -1197,6 +1355,10 @@ a {
 
 	.ban-head h3 {
 		font-size: 23px;
+	}
+
+	.ban-head .name-first-letter {
+		font-size: 35px;
 	}
 
 	.ban-head p {
@@ -1223,9 +1385,13 @@ a {
 		height: 255px;
 	}
 
+	.banner-oth {
+		height: 200px;
+	}
+
 	.my-profile-pic {
 		margin-bottom: 15px;
-		max-width: 20%;
+		max-width: 18%;
 		overflow-x: hidden;
 	}
 
@@ -1278,6 +1444,10 @@ a {
 		height: 250px;
 	}
 
+	.banner-oth {
+		height: 180px;
+	}
+
 	.ban-head h1 {
 		font-size: 3em;
 		letter-spacing: 7px;
@@ -1327,11 +1497,21 @@ a {
 	.ban-head {
 		padding-bottom: 20px;
 		overflow-x: hidden;
-		margin-top: -8em;
+		margin-top: -9em;
 	}
 
+	.my-profile-pic {
+		margin-bottom: 15px;
+		max-width: 25%;
+		overflow-x: hidden;
+	}
+	
 	.banner {
 		height: 240px;
+	}
+
+	.banner-oth {
+		height: 160px;
 	}
 
 	.ban-head h1 {
@@ -1380,11 +1560,15 @@ a {
 	.ban-head {
 		padding-bottom: 20px;
 		overflow-x: hidden;
-		margin-top: -9em;
+		margin-top: -9.5em;
 	}
 
 	.banner {
 		height: 245px;
+	}
+
+	.banner-oth {
+		height: 140px;
 	}
 
 	.ban-head h1 {
@@ -1433,11 +1617,15 @@ a {
 	.ban-head {
 		padding-bottom: 20px;
 		overflow-x: hidden;
-		margin-top: -9em;
+		margin-top: -9.5em;
 	}
 
 	.banner {
 		height: 240px;
+	}
+
+	.banner-oth {
+		height: 140px;
 	}
 
 	.ban-head h1 {
@@ -1492,11 +1680,15 @@ a {
 	.ban-head {
 		padding-bottom: 20px;
 		overflow-x: hidden;
-		margin-top: -9.7em;
+		margin-top: -10.5em;
 	}
 
 	.banner {
 		height: 250px;
+	}
+
+	.banner-oth {
+		height: 130px;
 	}
 
 	.body {
@@ -1545,11 +1737,21 @@ a {
 	.ban-head {
 		padding-bottom: 20px;
 		overflow-x: hidden;
-		margin-top: -10em;
+		margin-top: -11em;
+	}
+
+	.my-profile-pic {
+		margin-bottom: 15px;
+		max-width: 30%;
+		overflow-x: hidden;
 	}
 
 	.banner {
 		height: 250px;
+	}
+
+	.banner-oth {
+		height: 130px;
 	}
 
 	.body {
@@ -1597,11 +1799,15 @@ a {
 	.ban-head {
 		padding-bottom: 20px;
 		overflow-x: hidden;
-		margin-top: -10.5em;
+		margin-top: -11.5em;
 	}
 
 	.banner {
 		height: 250px;
+	}
+
+	.banner-oth {
+		height: 110px;
 	}
 
 	.body {
@@ -1657,11 +1863,15 @@ a {
 	.ban-head {
 		padding-bottom: 20px;
 		overflow-x: hidden;
-		margin-top: -11.5em;
+		margin-top: -12.5em;
 	}
 
 	.banner {
 		height: 250px;
+	}
+
+	.banner-oth {
+		height: 110px;
 	}
 
 	.body {
@@ -1702,6 +1912,10 @@ a {
 		font-size: 20px;
 	}
 
+	.ban-head .name-first-letter {
+		font-size: 30px;
+	}
+
 	.ban-head p {
 		font-size: 15px;
 	}
@@ -1717,11 +1931,15 @@ a {
 	.ban-head {
 		padding-bottom: 20px;
 		overflow-x: hidden;
-		margin-top: -12em;
+		margin-top: -13em;
 	}
 
 	.banner {
 		height: 250px;
+	}
+
+	.banner-oth {
+		height: 110px;
 	}
 
 	.body {
