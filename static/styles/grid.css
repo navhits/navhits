@@ -17,7 +17,7 @@
 .quick-link-grid {
   display: grid;
   gap: 30px 20px;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto auto;
   padding: 10px 0 10px 0;
 
 }
