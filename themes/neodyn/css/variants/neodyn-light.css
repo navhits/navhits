@@ -145,6 +145,11 @@ body h6 {
 
 }
 
+.keys {
+    color: #000;
+    background-color: #fff;
+}
+
 .footer p {
     color: #000;
 }

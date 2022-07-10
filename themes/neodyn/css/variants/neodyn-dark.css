@@ -143,6 +143,11 @@ body h6 {
 
 }
 
+.keys {
+    color: #fff;
+    background-color: #2b2b2b;
+}
+
 .footer p {
     color: rgb(255, 255, 255);
 }
