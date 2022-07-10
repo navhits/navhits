@@ -6,6 +6,14 @@
 
 }
 
+.keys-grid {
+  display: grid;
+  gap: 30px 20px;
+  grid-template-columns: auto;
+  padding: 10px 0 50px 0;
+
+}
+
 .quick-link-grid {
   display: grid;
   gap: 30px 20px;
