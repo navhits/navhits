@@ -101,10 +101,7 @@ nav,
 section {
 	display: block;
 }
-.quick-links {
-	display: flex;
-	align-items: center;
-}
+
 ol,
 ul {
 	list-style: none;

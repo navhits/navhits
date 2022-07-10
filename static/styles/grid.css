@@ -37,17 +37,17 @@
 }
 
 .grid-item h5 {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .grid-item h6 {
-    padding-top: 10px;
-    font-size: 15px;
+  padding-top: 10px;
+  font-size: 15px;
 }
 
 .grid-item p {
-    padding-top: 10px;
-    font-size: 12px;
+  padding-top: 10px;
+  font-size: 12px;
 }
 
 
@@ -55,15 +55,17 @@
   .grid-container {
     grid-template-columns: auto auto;
   }
+
   .quick-link-grid {
     grid-template-columns: auto auto;
   }
 }
 
 @media(max-width:500px) {
-	.grid-container {
+  .grid-container {
     grid-template-columns: auto;
   }
+
   .quick-link-grid {
     grid-template-columns: auto;
   }
@@ -73,9 +75,11 @@
   .grid-item h5 {
     font-size: 16px;
   }
+
   .grid-item h6 {
     font-size: 12px;
   }
+
   .grid-item p {
     font-size: 10px;
   }
