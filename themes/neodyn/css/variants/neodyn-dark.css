@@ -78,7 +78,7 @@ td {
     color: rgb(255, 255, 255);
 }
 
-.ban-head .spaced-title {
+.spaced-title {
     color: rgb(255, 255, 255);
 }
 
@@ -86,13 +86,15 @@ td {
     color: rgb(255, 255, 255);
 }
 
-#workexperience h2 {
+#workexperience h2,
+#my-talks h2 {
     color: rgb(255, 255, 255);
 }
 
 .about-me h3,
 .my-projects h3,
-.my-keys h3, .my-keys h4,
+.my-keys h3,
+.my-keys h4,
 .privacy-content h3 {
     color: rgb(255, 255, 255);
 }

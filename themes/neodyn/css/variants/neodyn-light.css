@@ -75,7 +75,7 @@ td {
     color: rgb(0, 0, 0);
 }
 
-.ban-head .spaced-title {
+.spaced-title {
     color: rgb(0, 0, 0);
 }
 
@@ -87,7 +87,8 @@ td {
     color: rgb(0, 0, 0);
 }
 
-#workexperience h2 {
+#workexperience h2,
+#my-talks h2 {
     color: rgb(0, 0, 0);
 }
 

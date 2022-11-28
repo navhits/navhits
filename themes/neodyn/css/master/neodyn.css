@@ -356,7 +356,8 @@ body a {
 	font-size: 15px;
 }
 
-#workexperience h2 {
+#workexperience h2,
+#my-talks h2 {
 	font-size: 2em;
 	letter-spacing: 1px;
 	font-family: 'Roboto', sans-serif;
@@ -466,68 +467,70 @@ a {
 /*-- /responsive design --*/
 @media(max-width:2560px) {
 	.ban-head {
-			padding-bottom: 20px;
-			overflow-x: hidden;
-			margin-top: -19em;
-		}
-	
-		.banner {
-			height: 990px;
-		}
-	
-		.banner-oth {
-			height: 1050px;
-		}
-	
-		.my-profile-pic {
-			margin-bottom: 15px;
-			max-width: 30%;
-			overflow-x: hidden;
-		}
-	
-		.ban-head h1 {
-			font-size: 3em;
-			letter-spacing: 7px;
-			overflow-x: hidden;
-		}
-	
-		.footer p {
-			font-size: 20px;
-		}
-	
-		.my-projects h3,
-		.my-keys h3 {
-			font-size: 30px;
-		}
-	
-		#workexperience h2 {
-			font-size: 40px;
-		}
-	
-		.about-me h3 {
-			font-size: 40px;
-		}
-	
-		.about-me p {
-			font-size: 30px;
-		}
-	
-		.ban-head h2 {
-			font-size: 50px;
-		}
-	
-		.ban-head h3 {
-			font-size: 40px;
-		}
+		padding-bottom: 20px;
+		overflow-x: hidden;
+		margin-top: -19em;
+	}
 
-		.ban-head .name-first-letter {
-			font-size: 60px;
-		}
-	
-		.ban-head p {
-			font-size: 30px;
-		}
+	.banner {
+		height: 990px;
+	}
+
+	.banner-oth {
+		height: 1050px;
+	}
+
+	.my-profile-pic {
+		margin-bottom: 15px;
+		max-width: 30%;
+		overflow-x: hidden;
+	}
+
+	.ban-head h1 {
+		font-size: 3em;
+		letter-spacing: 7px;
+		overflow-x: hidden;
+	}
+
+	.footer p {
+		font-size: 20px;
+	}
+
+	.my-projects h3,
+	.my-keys h3 {
+		font-size: 30px;
+	}
+
+	#workexperience h2,
+	#talks h2 h2 {
+		font-size: 40px;
+	}
+
+	.about-me h3 {
+		font-size: 40px;
+	}
+
+	.about-me p {
+		font-size: 30px;
+	}
+
+	.ban-head h2 {
+		font-size: 50px;
+	}
+
+	.ban-head h3 {
+		font-size: 40px;
+	}
+
+	.ban-head .name-first-letter {
+		font-size: 60px;
+	}
+
+	.ban-head p {
+		font-size: 30px;
+	}
 }
+
 @media(max-width:1920px) {
 	.ban-head {
 		padding-bottom: 20px;
@@ -564,7 +567,8 @@ a {
 		font-size: 30px;
 	}
 
-	#workexperience h2 {
+	#workexperience h2,
+	#talks h2 h2 {
 		font-size: 30px;
 	}
 
@@ -625,7 +629,8 @@ a {
 		font-size: 30px;
 	}
 
-	#workexperience h2 {
+	#workexperience h2,
+	#talks h2 h2 {
 		font-size: 30px;
 	}
 
@@ -648,7 +653,7 @@ a {
 	.ban-head .name-first-letter {
 		font-size: 40px;
 	}
-	
+
 	.ban-head p {
 		font-size: 20px;
 	}
@@ -691,7 +696,8 @@ a {
 		font-size: 30px;
 	}
 
-	#workexperience h2 {
+	#workexperience h2,
+	#talks h2 h2 {
 		font-size: 30px;
 	}
 
@@ -758,7 +764,8 @@ a {
 		font-size: 28px;
 	}
 
-	#workexperience h2 {
+	#workexperience h2,
+	#talks h2 h2 {
 		font-size: 28px;
 	}
 
@@ -821,7 +828,8 @@ a {
 		font-size: 28px;
 	}
 
-	#workexperience h2 {
+	#workexperience h2,
+	#talks h2 h2 {
 		font-size: 28px;
 	}
 
@@ -885,7 +893,8 @@ a {
 		font-size: 28px;
 	}
 
-	#workexperience h2 {
+	#workexperience h2,
+	#talks h2 h2 {
 		font-size: 28px;
 	}
 
@@ -948,7 +957,8 @@ a {
 		font-size: 28px;
 	}
 
-	#workexperience h2 {
+	#workexperience h2,
+	#talks h2 h2 {
 		font-size: 28px;
 	}
 
@@ -963,11 +973,11 @@ a {
 	.ban-head h3 {
 		font-size: 23px;
 	}
-	
+
 	.ban-head .name-first-letter {
 		font-size: 35px;
 	}
-	
+
 	.ban-head p {
 		font-size: 18px;
 	}
@@ -1011,7 +1021,8 @@ a {
 		font-size: 28px;
 	}
 
-	#workexperience h2 {
+	#workexperience h2,
+	#talks h2 h2 {
 		font-size: 28px;
 	}
 
@@ -1030,7 +1041,7 @@ a {
 	.ban-head .name-first-letter {
 		font-size: 35px;
 	}
-	
+
 	.ban-head p {
 		font-size: 18px;
 	}
@@ -1074,7 +1085,8 @@ a {
 		font-size: 28px;
 	}
 
-	#workexperience h2 {
+	#workexperience h2,
+	#talks h2 h2 {
 		font-size: 28px;
 	}
 
@@ -1142,7 +1154,8 @@ a {
 		font-size: 28px;
 	}
 
-	#workexperience h2 {
+	#workexperience h2,
+	#talks h2 h2 {
 		font-size: 28px;
 	}
 
@@ -1161,7 +1174,7 @@ a {
 	.ban-head .name-first-letter {
 		font-size: 35px;
 	}
-	
+
 	.ban-head p {
 		font-size: 18px;
 	}
@@ -1205,7 +1218,8 @@ a {
 		font-size: 28px;
 	}
 
-	#workexperience h2 {
+	#workexperience h2,
+	#talks h2 h2 {
 		font-size: 28px;
 	}
 
@@ -1275,7 +1289,8 @@ a {
 		font-size: 28px;
 	}
 
-	#workexperience h2 {
+	#workexperience h2,
+	#talks h2 h2 {
 		font-size: 28px;
 	}
 
@@ -1340,7 +1355,8 @@ a {
 		font-size: 28px;
 	}
 
-	#workexperience h2 {
+	#workexperience h2,
+	#talks h2 h2 {
 		font-size: 28px;
 	}
 
@@ -1407,7 +1423,8 @@ a {
 		font-size: 28px;
 	}
 
-	#workexperience h2 {
+	#workexperience h2,
+	#talks h2 h2 {
 		font-size: 28px;
 	}
 
@@ -1465,7 +1482,8 @@ a {
 		font-size: 28px;
 	}
 
-	#workexperience h2 {
+	#workexperience h2,
+	#talks h2 h2 {
 		font-size: 28px;
 	}
 
@@ -1505,7 +1523,7 @@ a {
 		max-width: 25%;
 		overflow-x: hidden;
 	}
-	
+
 	.banner {
 		height: 240px;
 	}
@@ -1530,7 +1548,8 @@ a {
 		font-size: 28px;
 	}
 
-	#workexperience h2 {
+	#workexperience h2,
+	#talks h2 h2 {
 		font-size: 28px;
 	}
 
@@ -1587,7 +1606,8 @@ a {
 		font-size: 25px;
 	}
 
-	#workexperience h2 {
+	#workexperience h2,
+	#talks h2 h2 {
 		font-size: 25px;
 	}
 
@@ -1649,7 +1669,8 @@ a {
 		font-size: 25px;
 	}
 
-	#workexperience h2 {
+	#workexperience h2,
+	#talks h2 h2 {
 		font-size: 25px;
 	}
 
@@ -1706,7 +1727,8 @@ a {
 		font-size: 25px;
 	}
 
-	#workexperience h2 {
+	#workexperience h2,
+	#talks h2 h2 {
 		font-size: 25px;
 	}
 
@@ -1769,7 +1791,8 @@ a {
 		font-size: 25px;
 	}
 
-	#workexperience h2 {
+	#workexperience h2,
+	#talks h2 h2 {
 		font-size: 25px;
 	}
 
@@ -1831,7 +1854,8 @@ a {
 		font-size: 25px;
 	}
 
-	#workexperience h2 {
+	#workexperience h2,
+	#talks h2 h2 {
 		font-size: 25px;
 	}
 
@@ -1895,7 +1919,8 @@ a {
 		font-size: 25px;
 	}
 
-	#workexperience h2 {
+	#workexperience h2,
+	#talks h2 h2 {
 		font-size: 25px;
 	}
 
@@ -1964,7 +1989,8 @@ a {
 	}
 
 
-	#workexperience h2 {
+	#workexperience h2,
+	#talks h2 h2 {
 		font-size: 20px;
 	}
 
