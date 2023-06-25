@@ -4,14 +4,13 @@
 
 Security Engineer @ [Freshworks](https://freshworks.com) ([FRSH](https://www.nasdaq.com/market-activity/stocks/frsh))
 
-Developer from heart. InfoSec by passion. Community first person and an amateur guitarist..
+Developer from heart. InfoSec by passion. Community first person and an amateur guitarist...
 
 ## Contact
 
 - My page: [navs.page](https://navs.page)
 - Twitter: [@nav_s15](https://twitter.com/nav_s15)
-- Personal Email: [reachme@navs.page](mailto:reachme@navs.page)
-- Work Email: [naveen.sunilkumar@freshworks.com](mailto:naveen.sunilkumar@freshworks.com)
+- Email: [reachme@navs.page](mailto:reachme@navs.page)
 
 
 
