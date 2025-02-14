@@ -1,0 +1,5 @@
+
+Contact: mailto:reachme@navs.page
+Encryption: https://navs.page/static/files/naveen-s.asc
+Preferred-Languages: en, ta, ml, hi
+Canonical: https://navs.page/.well-known/security.txt

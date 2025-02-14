@@ -5,6 +5,15 @@ body {
     animation: blurFadeIn 1.5s;
 }
 
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #05070c;
+        background: linear-gradient(to top right, #05070c 0%, #2d323e 100%);
+        color: #fff;
+        animation: blurFadeIn 1.5s;
+    }
+}
+
 @keyframes blurFadeIn {
     0% {
         opacity: 0.25;

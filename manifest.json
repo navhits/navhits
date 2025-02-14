@@ -1,0 +1,11 @@
+{
+    "name": "Naveen S",
+    "short_name": "Naveen",
+    "icons": [
+        {
+            "src": "images/favicon-light.png"
+        }
+    ],
+    "start_url": "/",
+    "display": "standalone"
+}

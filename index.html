@@ -27,6 +27,19 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
+    <script src="js/sw-install.js"></script>
+    <link rel="manifest" href="manifest.json">
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('./sw-config.js')
+                .then(function () {
+                    console.log('Service Worker Registered');
+                })
+                .catch(() => {
+                    console.log("There was error registering service worker")
+                })
+        }
+    </script>
 </head>
 
 <body>
@@ -47,6 +60,7 @@
                     </div>
                 </h2>
                 <h3 class="spaced-title">My name is <span class="name-first-letter">N</span>aveen S</h3>
+                <p style="padding-left: 20px; padding-right: 20px; padding-bottom: 20px;">📍 - 🇮🇳 🇮🇱 🇸🇬 🇲🇾</p>
                 <p style="padding-left: 20px; padding-right: 20px;">Your friendly neighbourhood Infosec guy!</p>
             </div>
 
@@ -55,11 +69,6 @@
                     <div class="quick-link-grid-item">
                         <a href="//resume.navs.page" rel="noopener noreferrer" target="_blank">
                             <h5 class="project-title">Resume <i class="fa fa-external-link"></i></h5>
-                        </a>
-                    </div>
-                    <div class="quick-link-grid-item">
-                        <a href="//api.navs.page/docs" rel="noopener noreferrer" target="_blank">
-                            <h5 class="project-title">API Docs <i class="fa fa-external-link"></i></h5>
                         </a>
                     </div>
                     <!--
@@ -85,7 +94,7 @@
                     to work this way.
                     <br />
                     Naveen works on improving the effectiveness and effienciency of the security programs by bringing
-                    security closer to the developers. He volunteers for GDG & WTM Chennai and hosts tech events to help
+                    security closer to the developers. He volunteers for GDG Chennai and hosts tech events to help
                     people learn and grow.
                 </p>
             </div>
@@ -110,7 +119,7 @@
                 <div class="grid-container">
                     <div class="grid-item">
                         <a href="//freshworks.com" rel="noopener noreferrer" target="_blank">
-                            <h5 class="project-title">Senior Security Engineer (Full time) <i
+                            <h5 class="project-title">Lead Security Engineer (Full time) <i
                                     class="fa fa-external-link"></i></h5>
                         </a>
                         <p>Jan 2020 - Present</p>
@@ -188,8 +197,26 @@
                     <div class="grid-item">
                         <a href="//docs.google.com/presentation/d/e/2PACX-1vT_QzX_LFkqSEbjW_ylveaOLRFzBCfWr8eu6EI1qaVN_e3tWDZRZDCFZTGsR7wuHlqjRRcptTT9y9Pd/pub?start=false&loop=false&delayms=3000"
                             rel="noopener noreferrer" target="_blank">
-                            <h5 class="project-title">Simplifying Code security for Developers <i
+                            <h5 class="project-title">Building git hooks for your organization <i
                                     class="fa fa-external-link"></i></h5>
+                        </a>
+                        <p>Nov 2024</p>
+                        <h6>OWASP AppSec Days India 2024</h6>
+                    </div>
+
+                    <div class="grid-item">
+                        <a href="//youtube.com/watch?v=-vWe_XheGlw"
+                            rel="noopener noreferrer" target="_blank">
+                            <h5 class="project-title">Scratch containers and the supply chain trouble <i class="fa fa-external-link"></i></h5>
+                        </a>
+                        <p>Oct 2023</p>
+                        <h6>OWASP Global AppSec Singapore 2023</h6>
+                    </div>
+
+                    <div class="grid-item">
+                        <a href="//docs.google.com/presentation/d/e/2PACX-1vT_QzX_LFkqSEbjW_ylveaOLRFzBCfWr8eu6EI1qaVN_e3tWDZRZDCFZTGsR7wuHlqjRRcptTT9y9Pd/pub?start=false&loop=false&delayms=3000"
+                            rel="noopener noreferrer" target="_blank">
+                            <h5 class="project-title">Simplifying Code security for Developers <i class="fa fa-external-link"></i></h5>
                         </a>
                         <p>Oct 2022</p>
                         <h6>DevFest Coimbatore 2022</h6>
@@ -200,7 +227,7 @@
         </div>
     </section>
     <section class="footer">
-        <p style="padding: 0 0 20px 0"><a href="/privacy" rel="noopener noreferrer" target="_blank">Privacy Policy</a>
+        <p style="padding: 0 0 20px 0"><a href="/privacy" rel="noopener noreferrer" target="_blank">Privacy</a>
         </p>
         <p class="footer-text" id="footer-text"></p>
 

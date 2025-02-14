@@ -4,6 +4,14 @@ body {
     animation: blurFadeIn 1.5s;
 }
 
+@media (prefers-color-scheme: light) {
+    body {
+        background: linear-gradient(to top right, #ffffff 0%, #bad3ff 100%);
+        color: rgb(0, 0, 0);
+        animation: blurFadeIn 1.5s;
+    }
+}
+
 @keyframes blurFadeIn {
     0% {
         opacity: 0.25;
