@@ -58,6 +58,12 @@ td {
     background-repeat: no-repeat;
 }
 
+.offline .button {
+    background: linear-gradient(315deg, #14171e, #181b23);
+    box-shadow: -7px -7px 14px #0d0f13,
+            7px 7px 14px #1f232f;
+}
+
 #mode-toggler {
     border: none;
     color: #fff;

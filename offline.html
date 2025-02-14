@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Naveen's Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta property="og:title" content="Naveen's Profile">
+    <meta name="description"
+        content="Naveen is a developer at heart and infosec by passion. Security Engineer @ Freshworks and volunteers for GDG and WTM Chennai.">
+    <meta property="og:description"
+        content="Naveen is a developer at heart and infosec by passion. Security Engineer @ Freshworks and volunteers for GDG and WTM Chennai.">
+    <meta property="og:url" content="https://navs.page">
+    <meta property="og:locale" content="en">
+    <link rel="icon" type="image/x-icon" href="static/images/favicon-light.png" id="faviconTag">
+
+    <link href="themes/neodyn/css/master/neodyn.css" rel='stylesheet' type='text/css' />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="manifest" href="manifest.json">
+    <script>
+        if ("serviceWorker" in navigator) {
+            window.addEventListener("load", function () {
+                navigator.serviceWorker
+                    .register("js/sw-config.js")
+                    .then(res => console.log("service worker registered"))
+                    .catch(err => console.log("service worker not registered", err));
+            });
+        }
+    </script>
+</head>
+
+<body>
+    <div class="offline">
+        <h1>OFFLINE</h1>
+        <h4>Please check your internet connection</h4>
+    
+        <a href="." class="button">RETRY</a>
+    </div>
+
+    <script src="themes/neodyn/js/neodyn.js"></script>
+    <script defer>
+        var options = {
+            light: "themes/neodyn/css/variants/neodyn-light.css",
+            dark: "themes/neodyn/css/variants/neodyn-dark.css"
+        };
+        new DarkMode(options);
+    </script>
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+</body>
+
+</html>
