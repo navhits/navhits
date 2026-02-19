@@ -85,6 +85,10 @@ td {
     overflow: auto;
 }
 
+.site-notice p {
+    color: rgb(255, 255, 255);
+}
+
 .ban-head h2 {
     color: rgb(255, 255, 255);
 }
