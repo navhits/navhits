@@ -10,4 +10,4 @@ Developer from heart. InfoSec by passion. Community first person and an amateur 
 
 - My page: [navs.page](https://navs.page)
 - Twitter: [@nav_s15](https://twitter.com/nav_s15)
-- Email: [reachme@navs.page](mailto:reachme@navs.page)
+- Email: [contact[at]naveen[dot]page](mailto:contact@naveen.page)
